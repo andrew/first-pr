@@ -10,35 +10,34 @@
       <input text="Go" type="Submit">
     </form>
 
-
     <script id="template" type="x-tmpl-mustache">
-    <a href="{{user.html_url}}" target="_blank">
-      <img src="{{user.avatar_url}}" width="80" height="80" />
-    </a>
-    <h2>
-      <a href="{{html_url}}" target="_blank">{{ title }}</a>
-      to
-      <a href="{{base.repo.html_url}}" target="_blank">{{base.repo.full_name}}</a>
-    </h2>
-    <p>{{body}}</p>
-    <p>
-      Sent on
-      {{created_at}}
-    </p>
-    {{#merged}}
-    <p>
-      Merged on
-      {{merged_at}}
-    </p>
-    {{/merged}}
-    {{^merged}}
-      {{#closed_at}}
-        closed at {{closed_at}}
-      {{/closed_at}}
-      {{^closed_at}}
-        Still open
-      {{/closed_at}}
-    {{/merged}}
+      <a href="{{user.html_url}}" target="_blank">
+        <img src="{{user.avatar_url}}" width="80" height="80" />
+      </a>
+      <h2>
+        <a href="{{html_url}}" target="_blank">{{ title }}</a>
+        to
+        <a href="{{base.repo.html_url}}" target="_blank">{{base.repo.full_name}}</a>
+      </h2>
+      <p>{{body}}</p>
+      <p>
+        Sent on
+        {{created_at}}
+      </p>
+      {{#merged}}
+      <p>
+        Merged on
+        {{merged_at}}
+      </p>
+      {{/merged}}
+      {{^merged}}
+        {{#closed_at}}
+          closed at {{closed_at}}
+        {{/closed_at}}
+        {{^closed_at}}
+          Still open
+        {{/closed_at}}
+      {{/merged}}
     </script>
     <script src="http://code.jquery.com/jquery-2.1.0.min.js"></script>
     <script src="mustache.js"></script>
