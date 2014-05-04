@@ -16,18 +16,20 @@ var loadData = function(login, cb){
       } else {
         cb(null)
       }
-    })
+    }).error(function() { renderError(getLogin()+" isn't a valid GitHub login") })
   }
 }
 
 var renderData = function(pullRequestData){
-  console.log(pullRequestData)
   if(pullRequestData){
-    var output = Mustache.render(foundTemplate, pullRequestData)
+    $('#main').html(Mustache.render(foundTemplate, pullRequestData))
   } else {
-    var output = '<p>It doesn\'t look like '+getLogin()+' has sent a pull request yet.</p>'
+    renderError('It doesn\'t look like '+getLogin()+' has sent a pull request yet.')
   }
-  $('#main').html(output)
+}
+
+var renderError = function (message) {
+  $('#main').html("<p>"+message+"</p>")
 }
 
 $(window).on('hashchange',function(){
