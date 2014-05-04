@@ -5,7 +5,7 @@ function getLogin(){
 var foundTemplate = $('#template').html();
 Mustache.parse(foundTemplate);
 
-var loadData = function(login, cb){
+function loadData(login, cb){
   if(login){
     var searchURL = 'https://api.github.com/search/issues?q=type:pr+author:'+login+'&sort=created&order=asc&per_page=1'
     $.getJSON(searchURL, function(data){
@@ -20,7 +20,7 @@ var loadData = function(login, cb){
   }
 }
 
-var renderData = function(pullRequestData){
+function renderData(pullRequestData){
   if(pullRequestData){
     $('#main').html(Mustache.render(foundTemplate, pullRequestData))
   } else {
@@ -28,7 +28,7 @@ var renderData = function(pullRequestData){
   }
 }
 
-var renderError = function (message) {
+function renderError(message){
   $('#main').html("<p>"+message+"</p>")
 }
 
