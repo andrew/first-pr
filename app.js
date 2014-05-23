@@ -23,6 +23,12 @@ function loadData(login, cb){
 function renderData(pullRequestData){
   if(pullRequestData){
     $('#main').html(Mustache.render(foundTemplate, pullRequestData))
+    $('#login').val(getLogin()).blur();
+    $('.moment-date').each(function (index, dateElem) {
+      var $dateElem = $(dateElem);
+      var formatted = moment( $dateElem.html() ).format('MMMM Do YYYY, h:mm a');
+      $dateElem.html(formatted);
+    });
   } else {
     renderError('It doesn\'t look like '+getLogin()+' has sent a pull request yet.')
   }
@@ -38,7 +44,6 @@ $(window).on('hashchange',function(){
 
 $('#user-form').submit(function(){
   window.location.hash = $('#login')[0].value
-  $('#login')[0].value = ""
   return false
 })
 
