@@ -28,7 +28,7 @@
       Source on <a href="https://github.com/andrew/first-pr">GitHub</a>
     </footer>
 
-    <script id="template" type="x-tmpl-mustache">
+    <script id="found-template" type="x-tmpl-mustache">
       <div class="pull-request cf">
         <h2>
           <a href="{{html_url}}" target="_blank">{{ title }}</a> <span class="pr-number">#{{number}}</span><br>
@@ -56,6 +56,20 @@
           {{/closed_at}}
         {{/merged}}
       </div>
+
+    </script>
+    <script id="missing-template" type="x-tmpl-mustache">
+      <p>
+        It doesn't look like <a href="https://github.com/{{login}}">{{login}}</a> has sent a pull request yet.
+      </p>
+      <p>Need help sending you're first pr?</p>
+      <p>Check out <a href="https://guides.github.com/activities/contributing-to-open-source/">this handy guide.</a></p>
+    </script>
+    <script id="error-template" type="x-tmpl-mustache">
+      <p>
+        <b>{{login}}</b>
+        doesn't appear to be on GitHub at all.
+      </p>
     </script>
     <script src="http://code.jquery.com/jquery-2.1.0.min.js"></script>
     <script src="mustache.js"></script>

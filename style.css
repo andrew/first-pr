@@ -76,6 +76,12 @@ header {
     line-height: 20px;
     margin: 60px 0 ;
   }
+  #main p a, #main p a:visited{
+    color: #2ecc71;
+  }
+  #main p{
+    margin-bottom:10px;
+  }
     .pull-request {
       background: #fff;
       border: 1px solid #ddd;

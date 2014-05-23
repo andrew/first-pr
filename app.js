@@ -2,8 +2,16 @@ function getLogin(){
   return window.location.hash.slice(1)
 }
 
-var foundTemplate = $('#template').html();
+var missingTemplate = $('#missing-template').html();
+var foundTemplate = $('#found-template').html();
+var errorTemplate = $('#error-template').html();
 Mustache.parse(foundTemplate);
+Mustache.parse(errorTemplate);
+Mustache.parse(missingTemplate);
+
+function render(template, params) {
+  $('#main').html(Mustache.render(template, params))
+}
 
 function loadData(login, cb){
   if(login){
@@ -16,13 +24,15 @@ function loadData(login, cb){
       } else {
         cb(null)
       }
-    }).error(function() { renderError(getLogin()+" isn't a valid GitHub login") })
+    }).error(function(){
+      render(errorTemplate, {login: login})
+    })
   }
 }
 
 function renderData(pullRequestData){
   if(pullRequestData){
-    $('#main').html(Mustache.render(foundTemplate, pullRequestData))
+    render(foundTemplate, pullRequestData)
     $('#login').val(getLogin()).blur();
     $('.moment-date').each(function (index, dateElem) {
       var $dateElem = $(dateElem);
@@ -30,7 +40,7 @@ function renderData(pullRequestData){
       $dateElem.html(formatted);
     });
   } else {
-    renderError('It doesn\'t look like '+getLogin()+' has sent a pull request yet.')
+    render(missingTemplate, {login: getLogin()})
   }
 }
 
