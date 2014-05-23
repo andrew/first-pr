@@ -16,6 +16,9 @@
 html, body {
   background: #f5f5f7;
 }
+strong {
+  font-weight: 900;
+}
 .first-pr {
   display: flex;
   margin: 0 10px;
@@ -74,26 +77,29 @@ header {
     display: none;
   }
   #main {
-    font-size: 14px;
-    line-height: 20px;
+    font-size: 16px;
+    line-height: 24px;
     margin: 40px 0;
   }
   #main p a, #main p a:visited{
     color: #2ecc71;
   }
-  #main p{
-    margin-bottom:8px;
-  }
 
-  #main .sent-on{
-    margin-bottom:3px;
+  #main p {
+    margin-bottom:10px;
   }
-
+    .no-pr-found {
+      font-size: 25px;
+      line-height: 30px;
+      margin-bottom: 10px;
+    }
     .pull-request {
       background: #fff;
       border: 1px solid #ddd;
       border-radius: 4px;
       box-shadow: 0 2px 6px rgba(0,0,0,.1);
+      font-size: 14px;
+      line-height: 20px;
       padding: 20px;
       text-align: left;
       max-width: 800px;
@@ -133,23 +139,15 @@ header {
       display: block;
     }
 
-.state{
-  line-height:20px;
-  color:#fff;
-  padding:3px 6px;
-  border-radius:3px;
-  display:inline-block;
-}
+    @media (min-width: 600px) {
+      .pr-dates {
+        padding-top: 3px;
+      }
+      #main p.sent-on {
+        margin-bottom: 0;
+      }
 
-.merged{
-  background:#6e5494;
-}
-.open{
-  background:#6cc644;
-}
-.closed{
-  background:#bd2c00;
-}
+    }
 
 footer {
   color: #999;
@@ -158,4 +156,22 @@ footer {
 }
   footer a {
     color: #666;
+  }
+
+.state{
+  line-height:20px;
+  color:#fff;
+  padding:3px 6px;
+  border-radius:3px;
+  display:inline-block;
+}
+
+  .merged{
+    background:#6e5494;
+  }
+  .open{
+    background:#6cc644;
+  }
+  .closed{
+    background:#bd2c00;
   }
