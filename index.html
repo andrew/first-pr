@@ -1,6 +1,7 @@
 <html>
   <head>
     <title>First Pull Request</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href='http://fonts.googleapis.com/css?family=Lato:300,400,900' rel='stylesheet' type='text/css'>
     <link href='style.css' rel='stylesheet' type='text/css'>
     <link rel="icon" type="image/x-icon" href="favicon.ico">
@@ -34,27 +35,31 @@
           <a href="{{html_url}}" target="_blank">{{ title }}</a> <span class="pr-number">#{{number}}</span><br>
           <small>to <a href="{{base.repo.html_url}}" target="_blank">{{base.repo.full_name}}</a></small>
         </h2>
-        <a href="{{user.html_url}}" target="_blank">
-          <img class="avatar" src="{{user.avatar_url}}" width="48" height="48" />
-        </a>
-        <!--<p>{{body}}</p>-->
-        <p class="sent-on">
-          <a href="{{user.html_url}}">{{user.login}}</a> sent this pull request on <span class="moment-date">{{created_at}}</span>
-        </p>
-        {{#merged}}
-        <p class="merged-on">
-          Merged on
-          <span class="moment-date">{{merged_at}}</span>
-        </p>
-        {{/merged}}
-        {{^merged}}
-          {{#closed_at}}
-            Closed on <span class="moment-date">{{closed_at}}</span>
-          {{/closed_at}}
-          {{^closed_at}}
-            Still open
-          {{/closed_at}}
-        {{/merged}}
+        <div class="user-media">
+          <a class="avatar" href="{{user.html_url}}" target="_blank">
+            <img src="{{user.avatar_url}}" width="48" height="48" />
+          </a>
+          <!--<p>{{body}}</p>-->
+          <div class="pr-dates">
+            <p class="sent-on">
+              <a href="{{user.html_url}}">{{user.login}}</a> sent this pull request on <span class="moment-date">{{created_at}}</span>
+            </p>
+            {{#merged}}
+            <p class="merged-on">
+              Merged on
+              <span class="moment-date">{{merged_at}}</span>
+            </p>
+            {{/merged}}
+            {{^merged}}
+              {{#closed_at}}
+                Closed on <span class="moment-date">{{closed_at}}</span>
+              {{/closed_at}}
+              {{^closed_at}}
+                Still open
+              {{/closed_at}}
+            {{/merged}}
+          </div>
+        </div>
       </div>
 
     </script>
