@@ -39,7 +39,6 @@ $(window).on('hashchange',function(){
 
 $('#user-form').submit(function(){
   window.location.hash = $('#login')[0].value
-  $('#login')[0].value = ""
   return false
 })
 
