@@ -46,16 +46,16 @@
             </p>
             {{#merged}}
             <p class="merged-on">
-              Merged on
+              <span class='state merged'>Merged</span> on
               <span class="moment-date">{{merged_at}}</span>
             </p>
             {{/merged}}
             {{^merged}}
               {{#closed_at}}
-                Closed on <span class="moment-date">{{closed_at}}</span>
+                <span class='state closed'>Closed</span> on <span class="moment-date">{{closed_at}}</span>
               {{/closed_at}}
               {{^closed_at}}
-                Still open
+                Still <span class='state open'>Open</span>
               {{/closed_at}}
             {{/merged}}
           </div>

@@ -76,14 +76,19 @@ header {
   #main {
     font-size: 14px;
     line-height: 20px;
-    margin: 60px 0 80px;
+    margin: 40px 0;
   }
   #main p a, #main p a:visited{
     color: #2ecc71;
   }
   #main p{
-    margin-bottom:10px;
+    margin-bottom:8px;
   }
+
+  #main .sent-on{
+    margin-bottom:3px;
+  }
+
     .pull-request {
       background: #fff;
       border: 1px solid #ddd;
@@ -127,11 +132,24 @@ header {
       border-radius: 4px;
       display: block;
     }
-    @media (min-width: 768px) {
-      .pr-dates {
-        padding-top: 3px;
-      }
-    }
+
+.state{
+  line-height:20px;
+  color:#fff;
+  padding:3px 6px;
+  border-radius:3px;
+  display:inline-block;
+}
+
+.merged{
+  background:#6e5494;
+}
+.open{
+  background:#6cc644;
+}
+.closed{
+  background:#bd2c00;
+}
 
 footer {
   color: #999;
