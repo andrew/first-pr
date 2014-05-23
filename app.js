@@ -23,6 +23,7 @@ function loadData(login, cb){
 function renderData(pullRequestData){
   if(pullRequestData){
     $('#main').html(Mustache.render(foundTemplate, pullRequestData))
+    $('#login').val(getLogin()).blur();
   } else {
     renderError('It doesn\'t look like '+getLogin()+' has sent a pull request yet.')
   }
