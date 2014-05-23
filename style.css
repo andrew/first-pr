@@ -137,7 +137,7 @@ header {
       border-radius: 4px;
       display: block;
     }
-    @media (min-width: 768px) {
+    @media (min-width: 600px) {
       .pr-dates {
         padding-top: 3px;
       }
