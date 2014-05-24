@@ -26,6 +26,7 @@ function loadData(login, cb){
       }
     }).error(function(){
       render(errorTemplate, {login: login})
+      flappyPanel()
     })
   }
 }
@@ -33,21 +34,25 @@ function loadData(login, cb){
 function renderData(pullRequestData){
   if(pullRequestData){
     render(foundTemplate, pullRequestData)
-    $('#login').val(getLogin()).blur();
-    $('#main').removeClass('hidden').addClass('expanded');
     $('.moment-date').each(function (index, dateElem) {
-      var $dateElem = $(dateElem);
-      var formatted = moment( $dateElem.html() ).format('MMMM Do YYYY, h:mm a');
-      $dateElem.html(formatted);
+      var $dateElem = $(dateElem)
+      var formatted = moment( $dateElem.html() ).format('MMMM Do YYYY, h:mm a')
+      $dateElem.html(formatted)
     });
   } else {
     render(missingTemplate, {login: getLogin()})
-    $('#main').removeClass('hidden').addClass('expanded');
   }
+  flappyPanel()
 }
 
 function renderError(message){
   $('#main').html("<p>"+message+"</p>")
+  flappyPanel()
+}
+
+function flappyPanel(){
+  $('#login').val(getLogin()).blur()
+  $('#main').removeClass('hidden').addClass('expanded')
 }
 
 $(window).on('hashchange',function(){
