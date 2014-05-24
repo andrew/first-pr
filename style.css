@@ -174,7 +174,7 @@ header h2 {
 }
 @media (min-width: 600px) {
   .found p.sent-on {
-    margin-bottom: 0;
+    margin-bottom: 3px;
   }
 }
 footer {
@@ -188,7 +188,8 @@ footer a {
 .state{
   line-height:20px;
   color:#fff;
-  padding:3px 6px;
+  padding:1px 6px;
+  margin-right: 3px;
   border-radius:3px;
   display:inline-block;
 }
