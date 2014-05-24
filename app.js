@@ -26,7 +26,7 @@ function loadData(login, cb){
       }
     }).error(function(){
       render(errorTemplate, {login: login})
-      flappyPanel()
+      flappyBoard()
     })
   }
 }
@@ -44,17 +44,17 @@ function renderData(pullRequestData){
   } else {
     render(missingTemplate, {login: getLogin()})
   }
-  flappyPanel()
+  flappyBoard()
 }
 
 function renderError(message){
   $('#main').html("<p>"+message+"</p>")
-  flappyPanel()
+  flappyBoard()
 }
 
-function flappyPanel(){
+function flappyBoard(){
   $('#login').val(getLogin()).blur()
-  $('#main').removeClass('hidden').addClass('expanded')
+  $('.result').removeClass('hidden').addClass('expanded')
 }
 
 $(window).on('hashchange',function(){
