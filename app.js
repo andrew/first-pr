@@ -54,7 +54,12 @@ function renderError(message){
 
 function flappyBoard(){
   $('#login').val(getLogin()).blur()
-  $('.result').removeClass('hidden').addClass('expanded')
+  imagesLoaded( '.result', function() {
+    $('.result').removeClass('hidden').addClass('expanded')
+    setTimeout(function(){
+      $('.spinner').addClass('hide')
+    }, 500)
+  })
 }
 
 $(window).on('hashchange',function(){
@@ -62,6 +67,7 @@ $(window).on('hashchange',function(){
 });
 
 $('#user-form').submit(function(){
+  $('.spinner').removeClass('hide')
   window.location.hash = $('#login')[0].value
   return false
 })
