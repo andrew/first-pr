@@ -132,7 +132,7 @@ header {
     }
     .avatar {
       float: left;
-      margin: 0 10px 0 0;
+      margin: 1px 10px 0 0;
     }
     .avatar img {
       border-radius: 4px;
@@ -140,9 +140,6 @@ header {
     }
 
     @media (min-width: 600px) {
-      .pr-dates {
-        padding-top: 3px;
-      }
       #main p.sent-on {
         margin-bottom: 0;
       }
