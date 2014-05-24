@@ -34,6 +34,7 @@ function renderData(pullRequestData){
   if(pullRequestData){
     render(foundTemplate, pullRequestData)
     $('#login').val(getLogin()).blur();
+    $('#main').removeClass('hidden').addClass('expanded');
     $('.moment-date').each(function (index, dateElem) {
       var $dateElem = $(dateElem);
       var formatted = moment( $dateElem.html() ).format('MMMM Do YYYY, h:mm a');
@@ -41,6 +42,7 @@ function renderData(pullRequestData){
     });
   } else {
     render(missingTemplate, {login: getLogin()})
+    $('#main').removeClass('hidden').addClass('expanded');
   }
 }
 
