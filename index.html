@@ -20,7 +20,6 @@
     <link rel="icon" type="image/png" href="favicon-32x32.png" sizes="32x32">
     <meta name="msapplication-TileColor" content="#2cae64">
     <meta name="msapplication-TileImage" content="mstile-144x144.png">
-
   </head>
   <body class="first-pr">
 
@@ -79,7 +78,9 @@
           </div>
         </div>
       </div>
-
+      <div id="tweet">
+        <a href="https://twitter.com/share" class="twitter-share-button" data-url="http://firstpr.me" data-text="I found my first pull request: {{html_url}}. What was yous?" data-size="large" data-hashtags="FirstPR">Tweet</a>
+      </div>
     </script>
     <script id="missing-template" type="x-tmpl-mustache">
       <p class="no-pr-found">
@@ -97,5 +98,6 @@
     <script src="mustache.js"></script>
     <script src="moment.js"></script>
     <script src="app.js"></script>
+    <script type="text/javascript" src="http://platform.twitter.com/widgets.js"></script>
   </body>
 </html>

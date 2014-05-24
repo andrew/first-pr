@@ -172,3 +172,8 @@ footer {
   .closed{
     background:#bd2c00;
   }
+
+#tweet{
+  width:110px;
+  margin:20px auto;
+}
