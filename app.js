@@ -26,6 +26,7 @@ function loadData(login, cb){
       }
     }).error(function(){
       render(errorTemplate, {login: login})
+      flappyPanel()
     })
   }
 }
@@ -33,7 +34,6 @@ function loadData(login, cb){
 function renderData(pullRequestData){
   if(pullRequestData){
     render(foundTemplate, pullRequestData)
-    $('#login').val(getLogin()).blur();
     twttr.widgets.load();
     $('.moment-date').each(function (index, dateElem) {
       var $dateElem = $(dateElem);
@@ -44,10 +44,17 @@ function renderData(pullRequestData){
   } else {
     render(missingTemplate, {login: getLogin()})
   }
+  flappyPanel()
 }
 
 function renderError(message){
   $('#main').html("<p>"+message+"</p>")
+  flappyPanel()
+}
+
+function flappyPanel(){
+  $('#login').val(getLogin()).blur()
+  $('#main').removeClass('hidden').addClass('expanded')
 }
 
 $(window).on('hashchange',function(){

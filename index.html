@@ -34,8 +34,9 @@
         <input id='login' name="login" placeholder="Your GitHub login" class="login-field">
         <input text="Go" type="Submit" class="submit-btn">
       </form>
-      <div id="main"></div>
-
+      <div class="main-wrapper">
+        <div id="main" class="hidden"></div>
+      </div>
     </div>
 
     <footer>
@@ -45,7 +46,7 @@
     </footer>
 
     <script id="found-template" type="x-tmpl-mustache">
-      <div class="pull-request cf">
+      <div class="found cf">
         <h2>
           <a href="{{html_url}}" target="_blank">{{ title }}</a> <span class="pr-number">#{{number}}</span><br>
           <small>to <a href="{{base.repo.html_url}}" target="_blank">{{base.repo.full_name}}</a></small>
@@ -83,16 +84,20 @@
       </div>
     </script>
     <script id="missing-template" type="x-tmpl-mustache">
-      <p class="no-pr-found">
-        It doesn't look like <a href="https://github.com/{{login}}">{{login}}</a> has sent a pull request yet.
-      </p>
-      <p><strong>Need help sending your first pull request?</strong> Check out <a href="https://guides.github.com/activities/contributing-to-open-source/">this handy guide.</a></p>
+      <div class="missing">
+        <h2>
+          It doesn't look like <a href="https://github.com/{{login}}">{{login}}</a> has sent a pull request yet.
+        </h2>
+        <p><strong>Need help sending your first pull request?</strong> Check out <a href="https://guides.github.com/activities/contributing-to-open-source/">this handy guide.</a></p>
+      </div>
     </script>
     <script id="error-template" type="x-tmpl-mustache">
-      <p>
-        <b>{{login}}</b>
-        doesn't appear to be on GitHub at all.
-      </p>
+      <div class="error">
+        <h2>
+          <b>{{login}}</b>
+          doesn't appear to be on GitHub at all.
+        </h2>
+      </div>
     </script>
     <script src="http://code.jquery.com/jquery-2.1.0.min.js"></script>
     <script src="mustache.js"></script>
