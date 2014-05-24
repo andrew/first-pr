@@ -36,8 +36,9 @@ function renderData(pullRequestData){
     $('#login').val(getLogin()).blur();
     $('.moment-date').each(function (index, dateElem) {
       var $dateElem = $(dateElem);
-      var formatted = moment( $dateElem.html() ).format('MMMM Do YYYY, h:mm a');
-      $dateElem.html(formatted);
+      var time = moment( $dateElem.attr('datetime') )
+      $dateElem.text(time.fromNow())
+               .attr('title', time.format('MMMM Do YYYY, h:mm a'));
     });
   } else {
     render(missingTemplate, {login: getLogin()})
