@@ -81,10 +81,12 @@ header h2 {
   display: none;
 }
 .results-wrapper {
-  -webkit-perspective: 500;
+  -webkit-perspective: 500px;
+  perspective: 500px;
 }
 .result {
   -webkit-transform-origin: 50% 0;
+  transform-origin: 50% 0;
   border-top-right-radius: 0;
   border-top-left-radius: 0;
   margin: -1px 0 0;
@@ -119,9 +121,11 @@ header h2 {
 .hidden {
   opacity: 0;
   -webkit-transform: rotateX(-60deg);
+  transform: rotateX(-60deg);
 }
 .expanded {
   -webkit-transform: rotateX(0deg);
+  transform: rotateX(0deg);
   opacity: 1;
 }
 .found {
