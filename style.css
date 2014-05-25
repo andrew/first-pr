@@ -185,10 +185,22 @@ header h2 {
 footer {
   color: #999;
   font-size: 14px;
+  line-height: 18px;
   padding: 10px 0;
 }
 footer a {
   color: #666;
+}
+footer span {
+  white-space:nowrap;
+}
+@media (max-width: 479px) {
+  footer span {
+    display: block;
+  }
+  footer span.bullet {
+    display: none;
+  }
 }
 .state{
   line-height:20px;
