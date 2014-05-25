@@ -202,7 +202,7 @@ footer a {
   width:110px;
   margin:20px auto;
 }
-#twitter-widget-0 {
+#tweet iframe {
   /*Use important to override inline iframe css*/
   width: auto !important;
 }
