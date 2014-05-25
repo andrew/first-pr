@@ -5,12 +5,13 @@ function getLogin(){
 var missingTemplate = $('#missing-template').html();
 var foundTemplate = $('#found-template').html();
 var errorTemplate = $('#error-template').html();
+var main = $('#main');
 Mustache.parse(foundTemplate);
 Mustache.parse(errorTemplate);
 Mustache.parse(missingTemplate);
 
 function render(template, params) {
-  $('#main').html(Mustache.render(template, params))
+  main.html(Mustache.render(template, params))
 }
 
 function loadData(login, cb){
@@ -52,7 +53,7 @@ function renderData(pullRequestData){
 }
 
 function renderError(message){
-  $('#main').html("<p>"+message+"</p>")
+  main.html("<p>"+message+"</p>")
   flappyBoard()
 }
 
