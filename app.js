@@ -41,6 +41,7 @@ function renderData(pullRequestData){
       var time = moment( $dateElem.attr('datetime') )
       $dateElem.attr('title', $dateElem.text() + " on " + time.format('MMMM Do YYYY, h:mm a'));
       if($dateElem.hasClass('sent')){
+        $dateElem.attr('title', time.format('MMMM Do YYYY, h:mm a'));
         $dateElem.text(time.fromNow())
       }
     });
