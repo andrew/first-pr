@@ -39,8 +39,10 @@ function renderData(pullRequestData){
     $('.moment-date').each(function (index, dateElem) {
       var $dateElem = $(dateElem);
       var time = moment( $dateElem.attr('datetime') )
-      $dateElem.text(time.fromNow())
-               .attr('title', time.format('MMMM Do YYYY, h:mm a'));
+      $dateElem.attr('title', $dateElem.text() + " on " + time.format('MMMM Do YYYY, h:mm a'));
+      if($dateElem.hasClass('sent')){
+        $dateElem.text(time.fromNow())
+      }
     });
   } else {
     render(missingTemplate, {login: getLogin()})
