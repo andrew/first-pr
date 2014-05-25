@@ -12,6 +12,7 @@ Mustache.parse(missingTemplate);
 
 function render(template, params) {
   main.html(Mustache.render(template, params))
+  emojify.run($('#title')[0])
 }
 
 function loadData(login, cb){

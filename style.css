@@ -268,3 +268,8 @@ footer a {
     -webkit-transform: scaleY(1.0);
   }
 }
+
+.emoji{
+  width:1em;
+  height:1em;
+}
