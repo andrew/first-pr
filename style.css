@@ -203,6 +203,7 @@ footer a {
   margin:20px auto;
 }
 #tweet iframe {
+  max-width:150px;
   /*Use important to override inline iframe css*/
   width: auto !important;
 }
