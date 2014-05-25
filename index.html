@@ -53,7 +53,7 @@
     <script id="found-template" type="x-tmpl-mustache">
       <div class="results-wrapper">
         <div class="result hidden found cf">
-          <h2>
+          <h2 id="pr-title">
             <a href="{{html_url}}" target="_blank">{{ title }}</a> <span class="pr-number">#{{number}}</span><br>
             <small>to <a href="{{base.repo.html_url}}" target="_blank">{{base.repo.full_name}}</a></small>
           </h2>
@@ -121,6 +121,7 @@
     <script src="mustache.js"></script>
     <script src="moment.js"></script>
     <script src="imagesloaded.js"></script>
+    <!--<script src="emojify.js"></script>-->
     <script src="app.js"></script>
     <script type="text/javascript" src="http://platform.twitter.com/widgets.js"></script>
   </body>
