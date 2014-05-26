@@ -1,6 +1,5 @@
 var gulp        = require('gulp');
 var concat      = require('gulp-concat');
-var stylus      = require('gulp-stylus');
 var minifyCSS   = require('gulp-minify-css');
 var uglify      = require('gulp-uglify');
 
@@ -18,7 +17,6 @@ gulp.task('js', function() {
 
 gulp.task('css', function () {
   gulp.src(paths.styles)
-    .pipe(stylus({set:['compress']}))
     .pipe(minifyCSS({keepSpecialComments: 0}))
     .pipe(concat('firstpr.css'))
     .pipe(gulp.dest('.'));
