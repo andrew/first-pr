@@ -37,7 +37,7 @@ function loadData(login, cb){
 function renderData(pullRequestData){
   if(pullRequestData){
     render(foundTemplate, pullRequestData)
-    twttr.widgets.load();
+    if(typeof twttr !== 'undefined'){twttr.widgets.load()}
     $('.moment-date').each(function (index, dateElem) {
       var $dateElem = $(dateElem);
       var time = moment( $dateElem.attr('datetime') )
