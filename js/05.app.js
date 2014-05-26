@@ -68,15 +68,17 @@ function flappyBoard(){
   })
 }
 
-$(window).on('hashchange',function(){
+$(function() {
+  $(window).on('hashchange',function(){
+    loadData(getLogin(), renderData)
+  });
+  
+  $('#user-form').submit(function(){
+    $('.spinner').removeClass('hide')
+    window.location.hash = ''
+    window.location.hash = $('#login')[0].value
+    return false
+  })
+
   loadData(getLogin(), renderData)
 });
-
-$('#user-form').submit(function(){
-  $('.spinner').removeClass('hide')
-  window.location.hash = ''
-  window.location.hash = $('#login')[0].value
-  return false
-})
-
-loadData(getLogin(), renderData)

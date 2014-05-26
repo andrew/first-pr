@@ -1,0 +1,29 @@
+{
+  "name": "first-pr",
+  "version": "0.0.0",
+  "description": "What was the first pull request you sent on GitHub?",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/andrew/first-pr.git"
+  },
+  "keywords": [
+    "github"
+  ],
+  "author": "Andrew Nesbitt",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/andrew/first-pr/issues"
+  },
+  "homepage": "https://github.com/andrew/first-pr",
+  "devDependencies": {
+    "gulp": "^3.6.2",
+    "gulp-concat": "^2.2.0",
+    "gulp-minify-css": "^0.3.4",
+    "gulp-stylus": "^1.0.1",
+    "gulp-uglify": "^0.3.0"
+  }
+}
