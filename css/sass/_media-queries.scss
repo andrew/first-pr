@@ -1,0 +1,34 @@
+@media (min-width: 480px) {
+  header {
+    padding: 40px 0 25px;
+    .icon {
+      height: 75px;
+      width: 75px;
+    }
+    h1 {
+      font-size: 50px;
+      line-height: 50px;
+      margin: 25px 0 5px;
+    }
+    h2 {
+      font-size: 20px;
+      line-height: 30px;
+    }
+  }
+  .login-field {
+    font-size: 25px;
+  }
+}
+@media (min-width: 600px) {
+  .found p.sent-on {
+    margin-bottom: 3px;
+  }
+}
+@media (max-width: 479px) {
+  footer span {
+    display: block;
+    &.bullet {
+      display: none;
+    }
+  }
+}

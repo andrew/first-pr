@@ -1,0 +1,11 @@
+.cf:before,
+.cf:after {
+  content: " "; /* 1 */
+  display: table; /* 2 */
+}
+.cf:after {
+  clear: both;
+}
+* {
+  box-sizing: border-box;
+}
