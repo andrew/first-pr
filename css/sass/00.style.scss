@@ -1,12 +1,5 @@
-// variables
 
-$green: #2ecc71;
-$med-grey: #99999b;
-
-$color--merged: #6e5494;
-$color--open: #6cc644;
-$color--closed: #bd2c00;
-
+@import "variables";
 @import "reset";
 @import "helpers";
 @import "base";
@@ -14,6 +7,4 @@ $color--closed: #bd2c00;
 @import "form";
 @import "results";
 @import "footer";
-
-
 @import "media-queries";
