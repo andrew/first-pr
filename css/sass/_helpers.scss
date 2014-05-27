@@ -1,7 +1,7 @@
 .cf:before,
 .cf:after {
-  content: " "; /* 1 */
-  display: table; /* 2 */
+  content: " ";
+  display: table;
 }
 .cf:after {
   clear: both;
