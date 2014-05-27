@@ -55,6 +55,16 @@ header {
     font-size: 15px;
     line-height: 20px; }
 
+footer {
+  color: #999;
+  font-size: 14px;
+  line-height: 18px;
+  padding: 10px 0; }
+  footer a {
+    color: #666; }
+  footer span {
+    white-space: nowrap; }
+
 html, body {
   background: #f5f5f7; }
 
@@ -173,16 +183,6 @@ strong, b {
 
 .missing h2 {
   margin-bottom: 10px; }
-
-footer {
-  color: #999;
-  font-size: 14px;
-  line-height: 18px;
-  padding: 10px 0; }
-  footer a {
-    color: #666; }
-  footer span {
-    white-space: nowrap; }
 
 .state {
   line-height: 20px;
