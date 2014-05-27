@@ -1,22 +1,66 @@
-/** * Eric Meyer's Reset CSS v2.0 (http://meyerweb.com/eric/tools/css/reset/) * http://cssreset.com */html, body, div, span, applet, object, iframe,h1, h2, h3, h4, h5, h6, p, blockquote, pre,a, abbr, acronym, address, big, cite, code,del, dfn, em, img, ins, kbd, q, s, samp,small, strike, strong, sub, sup, tt, var,b, u, i, center,dl, dt, dd, ol, ul, li,fieldset, form, label, legend,table, caption, tbody, tfoot, thead, tr, th, td,article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary,time, mark, audio, video {	margin: 0;	padding: 0;	border: 0;	font-size: 100%;	font: inherit;	vertical-align: baseline;}/* HTML5 display-role reset for older browsers */article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {	display: block;}body {	line-height: 1;}ol, ul {	list-style: none;}blockquote, q {	quotes: none;}blockquote:before, blockquote:after,q:before, q:after {	content: '';	content: none;}table {	border-collapse: collapse;	border-spacing: 0;}
+/** * Eric Meyer's Reset CSS v2.0 (http://meyerweb.com/eric/tools/css/reset/) * http://cssreset.com */
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline; }
 
-.cf:before,
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+  display: block; }
+
+body {
+  line-height: 1; }
+
+ol, ul {
+  list-style: none; }
+
+blockquote, q {
+  quotes: none; }
+
+blockquote:before, blockquote:after, q:before, q:after {
+  content: '';
+  content: none; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+.cf:before, .cf:after {
+  content: " ";
+  /* 1 */
+  display: table;
+  /* 2 */ }
+
 .cf:after {
-  content: " "; /* 1 */
-  display: table; /* 2 */
-}
-.cf:after {
-  clear: both;
-}
+  clear: both; }
+
 * {
-  box-sizing: border-box;
-}
+  box-sizing: border-box; }
+
+header {
+  padding: 20px 0 25px; }
+  header .icon {
+    height: 50px;
+    width: 50px; }
+  header h1 {
+    font-size: 35px;
+    font-weight: 900;
+    line-height: 40px;
+    margin: 10px 0 5px; }
+  header h2 {
+    color: #99999b;
+    font-size: 15px;
+    line-height: 20px; }
+
 html, body {
-  background: #f5f5f7;
-}
+  background: #f5f5f7; }
+
 strong, b {
-  font-weight: 900;
-}
+  font-weight: 900; }
+
 .first-pr {
   display: flex;
   margin: 0 20px;
@@ -25,41 +69,23 @@ strong, b {
   color: #333335;
   font: 18px/30px Lato, sans-serif;
   font-weight: 400;
-  text-align: center;
-}
-header {
-  padding: 20px 0 25px;
-}
-header .icon {
-  height: 50px;
-  width: 50px;
-}
-header h1 {
-  font-size: 35px;
-  font-weight: 900;
-  line-height: 40px;
-  margin: 10px 0 5px;
-}
-header h2 {
-  color: #99999b;
-  font-size: 15px;
-  line-height: 20px;
-}
+  text-align: center; }
+
 .content {
   flex: 1;
   margin: 0 auto;
   width: 100%;
-  max-width: 650px;
-}
+  max-width: 650px; }
+
 #user-form, .result {
   background: #fff;
   border: 1px solid #ddd;
   border-radius: 2px;
-  box-shadow: 0 2px 4px rgba(0,0,0,.1);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   overflow: hidden;
   padding: 0;
-  position: relative;
-}
+  position: relative; }
+
 .login-field {
   border: 4px solid #eee;
   border-radius: 1px;
@@ -71,19 +97,19 @@ header h2 {
   margin: 0;
   width: 100%;
   padding: 10px 10px;
-  transition: border-color 0.3s ease;
-}
+  transition: border-color 0.3s ease; }
+
 .login-field:focus {
   border-color: #2ecc71;
-  outline: none;
-}
+  outline: none; }
+
 .submit-btn {
-  display: none;
-}
+  display: none; }
+
 .results-wrapper {
   -webkit-perspective: 500px;
-  perspective: 500px;
-}
+  perspective: 500px; }
+
 .result {
   -webkit-transform-origin: 50% 0;
   transform-origin: 50% 0;
@@ -93,141 +119,97 @@ header h2 {
   font-size: 14px;
   line-height: 20px;
   padding: 20px 20px 20px;
-  text-align: left;
-}
-.result h2 {
-  font-size: 20px;
-  font-weight: normal;
-  line-height: 25px;
-}
-.result h2 small {
-  color: #99999b;
-  font-size: 18px;
-}
-.result p a, .result p a:visited{
-  color: #2ecc71;
-}
-.result a {
-  color: inherit;
-  font-weight: 900;
-  text-decoration: none;
-}
-.result a:hover {
-  text-decoration: underline;
-}
+  text-align: left; }
+  .result h2 {
+    font-size: 20px;
+    font-weight: normal;
+    line-height: 25px; }
+    .result h2 small {
+      color: #99999b;
+      font-size: 18px; }
+  .result p a, .result p a:visited {
+    color: #2ecc71; }
+  .result .result a {
+    color: inherit;
+    font-weight: 900;
+    text-decoration: none; }
+    .result .result a:hover {
+      text-decoration: underline; }
+
 .hidden, .expanded {
-  transition: all 400ms cubic-bezier(0.40, 1.34, 0.51, 1.01);
-}
+  transition: all 400ms cubic-bezier(0.4, 1.34, 0.51, 1.01); }
+
 .hidden {
   opacity: 0;
   -webkit-transform: rotateX(-60deg);
-  transform: rotateX(-60deg);
-}
+  transform: rotateX(-60deg); }
+
 .expanded {
   -webkit-transform: rotateX(0deg);
   transform: rotateX(0deg);
-  opacity: 1;
-}
+  opacity: 1; }
+
 .found {
-  position: relative;
-}
-.found h2 {
-  margin-bottom: 15px;
-}
-.found p {
-  margin-bottom:10px;
-}
+  position: relative; }
+  .found h2 {
+    margin-bottom: 15px; }
+  .found p {
+    margin-bottom: 10px; }
+
 .pr-number {
-  color: #99999b;
-}
+  color: #99999b; }
+
 .user-media, .pr-dates {
-  overflow:hidden;
-  _overflow:visible;
-  zoom:1;
-}
+  overflow: hidden;
+  _overflow: visible;
+  zoom: 1; }
+
 .avatar {
   float: left;
-  margin: 1px 10px 0 0;
-}
-.avatar img {
-  border-radius: 4px;
-  display: block;
-}
+  margin: 1px 10px 0 0; }
+  .avatar img {
+    border-radius: 4px;
+    display: block; }
+
 .missing h2 {
-  margin-bottom: 10px;
-}
-@media (min-width: 480px) {
-  header {
-    padding: 40px 0 25px;
-  }
-  header .icon {
-    height: 75px;
-    width: 75px;
-  }
-  header h1 {
-    font-size: 50px;
-    line-height: 50px;
-    margin: 25px 0 5px;
-  }
-  header h2 {
-    font-size: 20px;
-    line-height: 30px;
-  }
-  .login-field {
-    font-size: 25px;
-  }
-}
-@media (min-width: 600px) {
-  .found p.sent-on {
-    margin-bottom: 3px;
-  }
-}
+  margin-bottom: 10px; }
+
 footer {
   color: #999;
   font-size: 14px;
   line-height: 18px;
-  padding: 10px 0;
-}
-footer a {
-  color: #666;
-}
-footer span {
-  white-space:nowrap;
-}
-@media (max-width: 479px) {
+  padding: 10px 0; }
+  footer a {
+    color: #666; }
   footer span {
-    display: block;
-  }
-  footer span.bullet {
-    display: none;
-  }
-}
-.state{
-  line-height:20px;
-  color:#fff;
-  padding:1px 6px;
+    white-space: nowrap; }
+
+.state {
+  line-height: 20px;
+  color: #fff;
+  padding: 1px 6px;
   margin-right: 3px;
-  border-radius:3px;
-  display:inline-block;
-}
-#tweet{
-  width:110px;
-  margin:20px auto;
-}
+  border-radius: 3px;
+  display: inline-block; }
+
+#tweet {
+  width: 110px;
+  margin: 20px auto; }
+
 #tweet iframe {
-  max-width:150px;
+  max-width: 150px;
   /*Use important to override inline iframe css*/
-  width: auto !important;
-}
-.merged{
-  background:#6e5494;
-}
-.open{
-  background:#6cc644;
-}
-.closed{
-  background:#bd2c00;
-}
+  width: auto !important; }
+
+.merged {
+  background: #6e5494; }
+
+.open {
+  background: #6cc644; }
+
+.closed {
+  background: #bd2c00; }
+
 .spinner {
   margin: -13px 0 0;
   width: 50px;
@@ -236,53 +218,77 @@ footer span {
   font-size: 10px;
   position: absolute;
   top: 50%;
-  right: 10px;
-}
+  right: 10px; }
+
 .hide {
-  display: none;
-}
+  display: none; }
+
 .spinner > div {
   background-color: #2ecc71;
   height: 100%;
   width: 6px;
   display: inline-block;
-
   -webkit-animation: stretchdelay 1.2s infinite ease-in-out;
-  animation: stretchdelay 1.2s infinite ease-in-out;
-}
+  animation: stretchdelay 1.2s infinite ease-in-out; }
+
 .spinner .rect2 {
   -webkit-animation-delay: -1.1s;
-  animation-delay: -1.1s;
-}
+  animation-delay: -1.1s; }
+
 .spinner .rect3 {
-  -webkit-animation-delay: -1.0s;
-  animation-delay: -1.0s;
-}
+  -webkit-animation-delay: -1s;
+  animation-delay: -1s; }
+
 .spinner .rect4 {
   -webkit-animation-delay: -0.9s;
-  animation-delay: -0.9s;
-}
+  animation-delay: -0.9s; }
+
 .spinner .rect5 {
   -webkit-animation-delay: -0.8s;
-  animation-delay: -0.8s;
-}
+  animation-delay: -0.8s; }
 
 @-webkit-keyframes stretchdelay {
-  0%, 40%, 100% { -webkit-transform: scaleY(0.4) }
-  20% { -webkit-transform: scaleY(1.0) }
-}
+  0%, 40%, 100% {
+    -webkit-transform: scaleY(0.4); }
+
+  20% {
+    -webkit-transform: scaleY(1); } }
 
 @keyframes stretchdelay {
   0%, 40%, 100% {
     transform: scaleY(0.4);
-    -webkit-transform: scaleY(0.4);
-  }  20% {
-    transform: scaleY(1.0);
-    -webkit-transform: scaleY(1.0);
-  }
-}
+    -webkit-transform: scaleY(0.4); }
 
-.emoji{
-  width:1em;
-  height:1em;
-}
+  20% {
+    transform: scaleY(1);
+    -webkit-transform: scaleY(1); } }
+
+.emoji {
+  width: 1em;
+  height: 1em; }
+
+@media (min-width: 480px) {
+  header {
+    padding: 40px 0 25px; }
+    header .icon {
+      height: 75px;
+      width: 75px; }
+    header h1 {
+      font-size: 50px;
+      line-height: 50px;
+      margin: 25px 0 5px; }
+    header h2 {
+      font-size: 20px;
+      line-height: 30px; }
+  .login-field {
+    font-size: 25px; } }
+
+@media (min-width: 600px) {
+  .found p.sent-on {
+    margin-bottom: 3px; } }
+
+@media (max-width: 479px) {
+  footer span {
+    display: block; }
+    footer span.bullet {
+      display: none; } }
