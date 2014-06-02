@@ -1,11 +1,15 @@
 var gulp        = require('gulp');
 var concat      = require('gulp-concat');
+var sass        = require('gulp-sass');
 var minifyCSS   = require('gulp-minify-css');
 var uglify      = require('gulp-uglify');
 
 var paths = {
   js:     ['js/**.js'],
-  styles: ['css/**.css'],
+  sass: {
+    src: ['css/sass/**.scss'],
+    build: 'css/'
+  }
 };
 
 gulp.task('js', function() {
@@ -15,8 +19,10 @@ gulp.task('js', function() {
     .pipe(gulp.dest('.'));
 });
 
-gulp.task('css', function () {
-  gulp.src(paths.styles)
+gulp.task('sass', function () {
+  gulp.src( paths.sass.src )
+    .pipe(sass())
+    .pipe(gulp.dest( paths.sass.build ))
     .pipe(minifyCSS({keepSpecialComments: 0}))
     .pipe(concat('firstpr.css'))
     .pipe(gulp.dest('.'));
@@ -24,8 +30,8 @@ gulp.task('css', function () {
 
 // Continuous build
 gulp.task('watch', function() {
-  gulp.watch([paths.js],        ['js']);
-  gulp.watch([paths.styles],    ['css']);
+  gulp.watch( paths.js,       ['js']);
+  gulp.watch( paths.sass.src, ['sass']);
 });
 
-gulp.task('default', ['js', 'css', 'watch']);
+gulp.task('default', ['js', 'sass', 'watch']);

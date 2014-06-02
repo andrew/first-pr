@@ -1,0 +1,24 @@
+html, body {
+  background: #f5f5f7;
+}
+strong, b {
+  font-weight: 900;
+}
+
+// body class
+
+.first-pr {
+  display: flex;
+  margin: 0 20px;
+  min-height: 100vh;
+  flex-direction: column;
+  color: #333335;
+  font: 18px/30px Lato, sans-serif;
+  font-weight: 400;
+  text-align: center;
+}
+
+.emoji{
+  width:1em;
+  height:1em;
+}

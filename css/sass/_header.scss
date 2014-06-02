@@ -1,0 +1,18 @@
+header {
+  padding: 20px 0 25px;
+  .icon {
+    height: 50px;
+    width: 50px;
+  }
+  h1 {
+    font-size: 35px;
+    font-weight: 900;
+    line-height: 40px;
+    margin: 10px 0 5px;
+  }
+  h2 {
+    color: $med-grey;
+    font-size: 15px;
+    line-height: 20px;
+  }
+}
