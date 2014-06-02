@@ -31,7 +31,6 @@ table {
 .cf:before, .cf:after {
   content: " ";
   display: table; }
-
 .cf:after {
   clear: both; }
 
@@ -100,10 +99,9 @@ header {
   width: 100%;
   padding: 10px 10px;
   transition: border-color 0.3s ease; }
-
-.login-field:focus {
-  border-color: #2ecc71;
-  outline: none; }
+  .login-field:focus {
+    border-color: #2ecc71;
+    outline: none; }
 
 .submit-btn {
   display: none; }
@@ -222,19 +220,15 @@ header {
   display: inline-block;
   -webkit-animation: stretchdelay 1.2s infinite ease-in-out;
   animation: stretchdelay 1.2s infinite ease-in-out; }
-
 .spinner .rect2 {
   -webkit-animation-delay: -1.1s;
   animation-delay: -1.1s; }
-
 .spinner .rect3 {
   -webkit-animation-delay: -1s;
   animation-delay: -1s; }
-
 .spinner .rect4 {
   -webkit-animation-delay: -0.9s;
   animation-delay: -0.9s; }
-
 .spinner .rect5 {
   -webkit-animation-delay: -0.8s;
   animation-delay: -0.8s; }

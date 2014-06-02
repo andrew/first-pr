@@ -27,10 +27,10 @@
   width: 100%;
   padding: 10px 10px;
   transition: border-color 0.3s ease;
-}
-.login-field:focus {
-  border-color: $green;
-  outline: none;
+  &:focus {
+    border-color: $green;
+    outline: none;
+  }
 }
 .submit-btn {
   display: none;
