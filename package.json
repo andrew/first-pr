@@ -20,10 +20,10 @@
   },
   "homepage": "https://github.com/andrew/first-pr",
   "devDependencies": {
-    "gulp": "^3.6.2",
-    "gulp-concat": "^2.2.0",
-    "gulp-sass": "~0.7.0",
-    "gulp-minify-css": "^0.3.4",
-    "gulp-uglify": "^0.3.0"
+    "gulp": "^3.8.9",
+    "gulp-concat": "^2.4.1",
+    "gulp-sass": "~1.2.0",
+    "gulp-minify-css": "^0.3.11",
+    "gulp-uglify": "^1.0.1"
   }
 }
