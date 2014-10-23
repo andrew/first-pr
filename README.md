@@ -14,7 +14,7 @@ Install Gulp and compile the assets:
   $ npm install # to install dependencies
   $ npm install -g gulp
   $ gulp js     # will concat/compress js/*  into firstpr.js
-  $ gulp css    # will concat/compress css/* into firstpr.css
+  $ gulp sass    # will concat/compress css/* into firstpr.css
 ```
 
 During development just run `gulp` in a separate console for continuous compilation. (Gulp will watch for changes in the js/ and css/ directories and run the respective tasks.)
