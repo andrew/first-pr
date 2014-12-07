@@ -53,11 +53,6 @@ function renderData(pullRequestData){
   flappyBoard()
 }
 
-function renderError(message){
-  main.html("<p>"+message+"</p>")
-  flappyBoard()
-}
-
 function flappyBoard(){
   $('#login').val(getLogin()).blur()
   imagesLoaded( '.result', function() {
