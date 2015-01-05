@@ -21,4 +21,4 @@ During development just run `gulp` in a separate console for continuous compilat
 
 ## Copyright
 
-Copyright (c) 2014 Andrew Nesbitt. See [LICENSE](LICENSE) for details.
+Copyright (c) 2015 Andrew Nesbitt. See [LICENSE](LICENSE) for details.
