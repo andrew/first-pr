@@ -103,6 +103,10 @@ header {
     border-color: #2ecc71;
     outline: none; }
 
+.a11y-hidden {
+  position: absolute;
+  left: -999em; }
+
 .submit-btn {
   display: none; }
 

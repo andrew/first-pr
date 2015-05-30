@@ -32,6 +32,10 @@
     outline: none;
   }
 }
+.a11y-hidden {
+  position: absolute;
+  left: -999em;
+}
 .submit-btn {
   display: none;
 }
