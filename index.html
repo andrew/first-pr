@@ -1,4 +1,4 @@
-<html>
+<html lang="en">
   <head>
     <title>First Pull Request &bull; What was the first pull request you sent on GitHub?</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -31,14 +31,15 @@
   </head>
   <body class="first-pr">
 
-    <header>
-      <a href="/"><img class="icon" src="images/icon.svg" alt ="" ></a>
+    <header role="banner">
+      <a href="/" aria-label="Go back to the home page"><img class="icon" src="images/icon.svg" alt="logo"></a>
       <h1>First Pull Request</h1>
       <h2>What was the first pull request you sent on GitHub?</h2>
     </header>
 
-    <div class="content">
+    <div role="main" class="content">
       <form id='user-form' action="">
+        <label for="login" class="a11y-hidden">Login with Github</label>
         <input id='login' name="login" placeholder="Your GitHub username" class="login-field">
         <div class="spinner hide">
           <div class="rect1"></div>
@@ -52,7 +53,7 @@
       <div id="main"></div>
     </div>
 
-    <footer>
+    <footer role="contentinfo">
       <span class="credit">Made by <a href='https://twitter.com/teabass'>Andrew</a> and <a href='https://twitter.com/briannelsondsgn'>Brian</a></span>
       <span class="bullet">&bull;</span>
       <span class="source">Source on <a href="https://github.com/andrew/first-pr">GitHub</a></span>
