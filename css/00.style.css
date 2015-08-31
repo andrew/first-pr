@@ -253,14 +253,14 @@ header {
     transform: scaleY(1);
     -webkit-transform: scaleY(1); } }
 
-footer {
+footer, #all-results {
   color: #999;
   font-size: 14px;
   line-height: 18px;
   padding: 10px 0; }
-  footer a {
+  footer a, #all-results a {
     color: #666; }
-  footer span {
+  footer span, #all-results span {
     white-space: nowrap; }
 
 @media (min-width: 480px) {
@@ -276,19 +276,15 @@ footer {
     header h2 {
       font-size: 20px;
       line-height: 30px; }
-
   .login-field {
-    font-size: 25px; }
- }
+    font-size: 25px; } }
 
 @media (min-width: 600px) {
   .found p.sent-on {
-    margin-bottom: 3px; }
- }
+    margin-bottom: 3px; } }
 
 @media (max-width: 479px) {
   footer span {
     display: block; }
     footer span.bullet {
-      display: none; }
- }
+      display: none; } }
