@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "description": "What was the first pull request you sent on GitHub?",
   "main": "gulpfile.js",
+  "engines": {
+    "node": "5.2.0"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
