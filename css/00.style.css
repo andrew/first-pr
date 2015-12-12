@@ -31,6 +31,7 @@ table {
 .cf:before, .cf:after {
   content: " ";
   display: table; }
+
 .cf:after {
   clear: both; }
 
@@ -131,7 +132,8 @@ header {
     .result h2 small {
       color: #99999b;
       font-size: 18px; }
-  .result p a, .result p a:visited {
+  .result p a,
+  .result p a:visited {
     color: #2ecc71; }
   .result a {
     color: inherit;
@@ -224,15 +226,19 @@ header {
   display: inline-block;
   -webkit-animation: stretchdelay 1.2s infinite ease-in-out;
   animation: stretchdelay 1.2s infinite ease-in-out; }
+
 .spinner .rect2 {
   -webkit-animation-delay: -1.1s;
   animation-delay: -1.1s; }
+
 .spinner .rect3 {
-  -webkit-animation-delay: -1s;
-  animation-delay: -1s; }
+  -webkit-animation-delay: -1.0s;
+  animation-delay: -1.0s; }
+
 .spinner .rect4 {
   -webkit-animation-delay: -0.9s;
   animation-delay: -0.9s; }
+
 .spinner .rect5 {
   -webkit-animation-delay: -0.8s;
   animation-delay: -0.8s; }
@@ -240,7 +246,6 @@ header {
 @-webkit-keyframes stretchdelay {
   0%, 40%, 100% {
     -webkit-transform: scaleY(0.4); }
-
   20% {
     -webkit-transform: scaleY(1); } }
 
@@ -248,7 +253,6 @@ header {
   0%, 40%, 100% {
     transform: scaleY(0.4);
     -webkit-transform: scaleY(0.4); }
-
   20% {
     transform: scaleY(1);
     -webkit-transform: scaleY(1); } }
