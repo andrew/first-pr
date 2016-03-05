@@ -303,9 +303,9 @@
       "resolved": "https://registry.npmjs.org/debug/-/debug-2.2.0.tgz"
     },
     "decamelize": {
-      "version": "1.1.2",
+      "version": "1.2.0",
       "from": "decamelize@>=1.1.2 <2.0.0",
-      "resolved": "https://registry.npmjs.org/decamelize/-/decamelize-1.1.2.tgz"
+      "resolved": "https://registry.npmjs.org/decamelize/-/decamelize-1.2.0.tgz"
     },
     "defaults": {
       "version": "1.0.3",
@@ -985,9 +985,9 @@
       "resolved": "https://registry.npmjs.org/nan/-/nan-2.2.0.tgz"
     },
     "node-gyp": {
-      "version": "3.3.0",
+      "version": "3.3.1",
       "from": "node-gyp@>=3.0.1 <4.0.0",
-      "resolved": "https://registry.npmjs.org/node-gyp/-/node-gyp-3.3.0.tgz",
+      "resolved": "https://registry.npmjs.org/node-gyp/-/node-gyp-3.3.1.tgz",
       "dependencies": {
         "glob": {
           "version": "4.5.3",
@@ -1225,9 +1225,9 @@
       "resolved": "https://registry.npmjs.org/rimraf/-/rimraf-2.5.2.tgz",
       "dependencies": {
         "glob": {
-          "version": "7.0.0",
+          "version": "7.0.3",
           "from": "glob@>=7.0.0 <8.0.0",
-          "resolved": "https://registry.npmjs.org/glob/-/glob-7.0.0.tgz"
+          "resolved": "https://registry.npmjs.org/glob/-/glob-7.0.3.tgz"
         }
       }
     },
