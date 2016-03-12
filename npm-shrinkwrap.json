@@ -1379,9 +1379,9 @@
       "resolved": "https://registry.npmjs.org/time-stamp/-/time-stamp-1.0.0.tgz"
     },
     "tough-cookie": {
-      "version": "2.2.1",
+      "version": "2.2.2",
       "from": "tough-cookie@>=2.2.0 <2.3.0",
-      "resolved": "https://registry.npmjs.org/tough-cookie/-/tough-cookie-2.2.1.tgz"
+      "resolved": "https://registry.npmjs.org/tough-cookie/-/tough-cookie-2.2.2.tgz"
     },
     "trim-newlines": {
       "version": "1.0.0",
