@@ -411,7 +411,7 @@
     },
     "flagged-respawn": {
       "version": "0.3.2",
-      "from": "flagged-respawn@>=0.3.1 <0.4.0",
+      "from": "flagged-respawn@>=0.3.2 <0.4.0",
       "resolved": "https://registry.npmjs.org/flagged-respawn/-/flagged-respawn-0.3.2.tgz"
     },
     "forever-agent": {
@@ -802,9 +802,9 @@
       "resolved": "https://registry.npmjs.org/lcid/-/lcid-1.0.0.tgz"
     },
     "liftoff": {
-      "version": "2.2.0",
+      "version": "2.2.1",
       "from": "liftoff@>=2.1.0 <3.0.0",
-      "resolved": "https://registry.npmjs.org/liftoff/-/liftoff-2.2.0.tgz"
+      "resolved": "https://registry.npmjs.org/liftoff/-/liftoff-2.2.1.tgz"
     },
     "load-json-file": {
       "version": "1.1.0",
