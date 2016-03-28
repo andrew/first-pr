@@ -1415,9 +1415,9 @@
       "resolved": "https://registry.npmjs.org/tunnel-agent/-/tunnel-agent-0.4.2.tgz"
     },
     "tweetnacl": {
-      "version": "0.14.1",
+      "version": "0.14.2",
       "from": "tweetnacl@>=0.13.0 <1.0.0",
-      "resolved": "https://registry.npmjs.org/tweetnacl/-/tweetnacl-0.14.1.tgz"
+      "resolved": "https://registry.npmjs.org/tweetnacl/-/tweetnacl-0.14.2.tgz"
     },
     "typedarray": {
       "version": "0.0.6",
