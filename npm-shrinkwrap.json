@@ -255,9 +255,9 @@
       "resolved": "https://registry.npmjs.org/core-util-is/-/core-util-is-1.0.2.tgz"
     },
     "cross-spawn": {
-      "version": "2.2.0",
+      "version": "2.2.2",
       "from": "cross-spawn@>=2.0.0 <3.0.0",
-      "resolved": "https://registry.npmjs.org/cross-spawn/-/cross-spawn-2.2.0.tgz"
+      "resolved": "https://registry.npmjs.org/cross-spawn/-/cross-spawn-2.2.2.tgz"
     },
     "cross-spawn-async": {
       "version": "2.2.1",
