@@ -470,9 +470,9 @@
           "resolved": "https://registry.npmjs.org/minimatch/-/minimatch-2.0.10.tgz"
         },
         "readable-stream": {
-          "version": "1.0.33",
+          "version": "1.0.34",
           "from": "readable-stream@>=1.0.33-1 <1.1.0-0",
-          "resolved": "https://registry.npmjs.org/readable-stream/-/readable-stream-1.0.33.tgz"
+          "resolved": "https://registry.npmjs.org/readable-stream/-/readable-stream-1.0.34.tgz"
         },
         "through2": {
           "version": "0.6.5",
@@ -539,9 +539,9 @@
       "resolved": "https://registry.npmjs.org/gulp-concat/-/gulp-concat-2.6.0.tgz",
       "dependencies": {
         "readable-stream": {
-          "version": "1.0.33",
+          "version": "1.0.34",
           "from": "readable-stream@>=1.0.33-1 <1.1.0-0",
-          "resolved": "https://registry.npmjs.org/readable-stream/-/readable-stream-1.0.33.tgz"
+          "resolved": "https://registry.npmjs.org/readable-stream/-/readable-stream-1.0.34.tgz"
         },
         "through2": {
           "version": "0.6.5",
@@ -1179,9 +1179,9 @@
       "resolved": "https://registry.npmjs.org/read-pkg-up/-/read-pkg-up-1.0.1.tgz"
     },
     "readable-stream": {
-      "version": "1.1.13",
+      "version": "1.1.14",
       "from": "readable-stream@>=1.1.9 <1.2.0",
-      "resolved": "https://registry.npmjs.org/readable-stream/-/readable-stream-1.1.13.tgz"
+      "resolved": "https://registry.npmjs.org/readable-stream/-/readable-stream-1.1.14.tgz"
     },
     "rechoir": {
       "version": "0.6.2",
@@ -1253,9 +1253,9 @@
           "resolved": "https://registry.npmjs.org/glob/-/glob-6.0.4.tgz"
         },
         "lodash": {
-          "version": "4.10.0",
+          "version": "4.11.0",
           "from": "lodash@>=4.0.0 <5.0.0",
-          "resolved": "https://registry.npmjs.org/lodash/-/lodash-4.10.0.tgz"
+          "resolved": "https://registry.npmjs.org/lodash/-/lodash-4.11.0.tgz"
         }
       }
     },
@@ -1520,9 +1520,9 @@
           "resolved": "https://registry.npmjs.org/graceful-fs/-/graceful-fs-3.0.8.tgz"
         },
         "readable-stream": {
-          "version": "1.0.33",
+          "version": "1.0.34",
           "from": "readable-stream@>=1.0.33-1 <1.1.0-0",
-          "resolved": "https://registry.npmjs.org/readable-stream/-/readable-stream-1.0.33.tgz"
+          "resolved": "https://registry.npmjs.org/readable-stream/-/readable-stream-1.0.34.tgz"
         },
         "strip-bom": {
           "version": "1.0.0",
