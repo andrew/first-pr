@@ -78,9 +78,9 @@
       "resolved": "https://registry.npmjs.org/assert-plus/-/assert-plus-0.2.0.tgz"
     },
     "ast-types": {
-      "version": "0.8.15",
-      "from": "ast-types@0.8.15",
-      "resolved": "https://registry.npmjs.org/ast-types/-/ast-types-0.8.15.tgz"
+      "version": "0.8.16",
+      "from": "ast-types@0.8.16",
+      "resolved": "https://registry.npmjs.org/ast-types/-/ast-types-0.8.16.tgz"
     },
     "async": {
       "version": "1.5.2",
@@ -385,10 +385,10 @@
       "from": "esmangle-evaluator@>=1.0.0 <2.0.0",
       "resolved": "https://registry.npmjs.org/esmangle-evaluator/-/esmangle-evaluator-1.0.0.tgz"
     },
-    "esprima-fb": {
-      "version": "15001.1001.0-dev-harmony-fb",
-      "from": "esprima-fb@>=15001.1001.0-dev-harmony-fb <15001.1002.0",
-      "resolved": "https://registry.npmjs.org/esprima-fb/-/esprima-fb-15001.1001.0-dev-harmony-fb.tgz"
+    "esprima": {
+      "version": "2.7.2",
+      "from": "esprima@>=2.7.1 <2.8.0",
+      "resolved": "https://registry.npmjs.org/esprima/-/esprima-2.7.2.tgz"
     },
     "extend": {
       "version": "2.0.1",
@@ -1241,9 +1241,9 @@
       "resolved": "https://registry.npmjs.org/readable-stream/-/readable-stream-1.1.14.tgz"
     },
     "recast": {
-      "version": "0.10.43",
-      "from": "recast@>=0.10.1 <0.11.0",
-      "resolved": "https://registry.npmjs.org/recast/-/recast-0.10.43.tgz"
+      "version": "0.11.4",
+      "from": "recast@>=0.11.4 <0.12.0",
+      "resolved": "https://registry.npmjs.org/recast/-/recast-0.11.4.tgz"
     },
     "rechoir": {
       "version": "0.6.2",
@@ -1315,9 +1315,9 @@
           "resolved": "https://registry.npmjs.org/glob/-/glob-6.0.4.tgz"
         },
         "lodash": {
-          "version": "4.11.0",
+          "version": "4.11.1",
           "from": "lodash@>=4.0.0 <5.0.0",
-          "resolved": "https://registry.npmjs.org/lodash/-/lodash-4.11.0.tgz"
+          "resolved": "https://registry.npmjs.org/lodash/-/lodash-4.11.1.tgz"
         }
       }
     },
@@ -1532,9 +1532,9 @@
       "from": "unique-stream@>=1.0.0 <2.0.0"
     },
     "unreachable-branch-transform": {
-      "version": "0.5.0",
+      "version": "0.5.1",
       "from": "unreachable-branch-transform@>=0.5.0 <0.6.0",
-      "resolved": "https://registry.npmjs.org/unreachable-branch-transform/-/unreachable-branch-transform-0.5.0.tgz"
+      "resolved": "https://registry.npmjs.org/unreachable-branch-transform/-/unreachable-branch-transform-0.5.1.tgz"
     },
     "user-home": {
       "version": "1.1.1",
