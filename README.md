@@ -1,5 +1,7 @@
 # First Pull Request
 
+[![Join the chat at https://gitter.im/andrew/first-pr](https://badges.gitter.im/andrew/first-pr.svg)](https://gitter.im/andrew/first-pr?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+
 What was the first pull request you sent on GitHub? [firstpr.me](http://firstpr.me/)
 
 Hosted on [pages.github.com](https://pages.github.com),
