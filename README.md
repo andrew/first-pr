@@ -14,9 +14,9 @@ data from [developer.github.com/v3/](https://developer.github.com/v3/)
 
 Install [Gulp](http://gulpjs.com) and compile the assets:
 
-```
-  $ npm install # to install dependencies
-  $ npm run build # will concat/compress css and js
+```shell
+npm install # to install dependencies
+npm run build # will concat/compress css and js
 ```
 
 During development just run `gulp` in a separate console for continuous compilation.
