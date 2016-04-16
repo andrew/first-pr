@@ -1495,7 +1495,7 @@
     },
     "tape": {
       "version": "4.5.1",
-      "from": "tape@latest",
+      "from": "tape@>=4.5.1 <5.0.0",
       "resolved": "https://registry.npmjs.org/tape/-/tape-4.5.1.tgz",
       "dependencies": {
         "glob": {
