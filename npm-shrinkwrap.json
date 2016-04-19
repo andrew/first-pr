@@ -1331,9 +1331,9 @@
       "resolved": "https://registry.npmjs.org/replace-ext/-/replace-ext-0.0.1.tgz"
     },
     "request": {
-      "version": "2.71.0",
+      "version": "2.72.0",
       "from": "request@>=2.61.0 <3.0.0",
-      "resolved": "https://registry.npmjs.org/request/-/request-2.71.0.tgz",
+      "resolved": "https://registry.npmjs.org/request/-/request-2.72.0.tgz",
       "dependencies": {
         "extend": {
           "version": "3.0.0",
