@@ -1157,9 +1157,9 @@
       }
     },
     "node-sass": {
-      "version": "3.5.1",
-      "from": "node-sass@>=3.5.1 <4.0.0",
-      "resolved": "https://registry.npmjs.org/node-sass/-/node-sass-3.5.1.tgz",
+      "version": "3.5.3",
+      "from": "node-sass@>=3.5.3 <4.0.0",
+      "resolved": "https://registry.npmjs.org/node-sass/-/node-sass-3.5.3.tgz",
       "dependencies": {
         "gaze": {
           "version": "1.0.0",
