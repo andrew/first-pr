@@ -269,9 +269,9 @@
       "from": "d@>=0.1.1 <0.2.0"
     },
     "dashdash": {
-      "version": "1.13.0",
+      "version": "1.13.1",
       "from": "dashdash@>=1.12.0 <2.0.0",
-      "resolved": "https://registry.npmjs.org/dashdash/-/dashdash-1.13.0.tgz",
+      "resolved": "https://registry.npmjs.org/dashdash/-/dashdash-1.13.1.tgz",
       "dependencies": {
         "assert-plus": {
           "version": "1.0.0",
@@ -892,7 +892,7 @@
     },
     "lazy-cache": {
       "version": "1.0.4",
-      "from": "lazy-cache@>=1.0.4 <2.0.0",
+      "from": "lazy-cache@>=1.0.3 <2.0.0",
       "resolved": "https://registry.npmjs.org/lazy-cache/-/lazy-cache-1.0.4.tgz"
     },
     "lcid": {
@@ -1450,9 +1450,9 @@
       "resolved": "https://registry.npmjs.org/sntp/-/sntp-1.0.9.tgz"
     },
     "source-map": {
-      "version": "0.5.3",
+      "version": "0.5.4",
       "from": "source-map@>=0.5.1 <0.6.0",
-      "resolved": "https://registry.npmjs.org/source-map/-/source-map-0.5.3.tgz"
+      "resolved": "https://registry.npmjs.org/source-map/-/source-map-0.5.4.tgz"
     },
     "sparkles": {
       "version": "1.0.0",
