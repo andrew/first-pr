@@ -1443,9 +1443,9 @@
       "resolved": "https://registry.npmjs.org/sntp/-/sntp-1.0.9.tgz"
     },
     "source-map": {
-      "version": "0.5.4",
+      "version": "0.5.5",
       "from": "source-map@>=0.5.1 <0.6.0",
-      "resolved": "https://registry.npmjs.org/source-map/-/source-map-0.5.4.tgz"
+      "resolved": "https://registry.npmjs.org/source-map/-/source-map-0.5.5.tgz"
     },
     "sparkles": {
       "version": "1.0.0",
