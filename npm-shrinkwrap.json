@@ -1095,9 +1095,9 @@
       "resolved": "https://registry.npmjs.org/multipipe/-/multipipe-0.1.2.tgz"
     },
     "nan": {
-      "version": "2.3.1",
+      "version": "2.3.2",
       "from": "nan@>=2.2.0 <3.0.0",
-      "resolved": "https://registry.npmjs.org/nan/-/nan-2.3.1.tgz"
+      "resolved": "https://registry.npmjs.org/nan/-/nan-2.3.2.tgz"
     },
     "node-gyp": {
       "version": "3.3.1",
