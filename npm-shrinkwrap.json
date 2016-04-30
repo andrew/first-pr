@@ -1377,9 +1377,9 @@
       "resolved": "https://registry.npmjs.org/spdx-license-ids/-/spdx-license-ids-1.2.1.tgz"
     },
     "sshpk": {
-      "version": "1.8.2",
+      "version": "1.8.3",
       "from": "sshpk@>=1.7.0 <2.0.0",
-      "resolved": "https://registry.npmjs.org/sshpk/-/sshpk-1.8.2.tgz",
+      "resolved": "https://registry.npmjs.org/sshpk/-/sshpk-1.8.3.tgz",
       "dependencies": {
         "assert-plus": {
           "version": "1.0.0",
