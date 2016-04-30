@@ -1,7 +1,6 @@
 var gulp        = require('gulp');
 var concat      = require('gulp-concat');
 var sass        = require('gulp-sass');
-var minifyCSS   = require('gulp-minify-css');
 var uglify      = require('gulp-uglify');
 
 var paths = {
@@ -21,9 +20,8 @@ gulp.task('js', function() {
 
 gulp.task('sass', function () {
   gulp.src( paths.sass.src )
-    .pipe(sass())
+    .pipe(sass({outputStyle: 'compressed'}))
     .pipe(gulp.dest( paths.sass.build ))
-    .pipe(minifyCSS({keepSpecialComments: 0}))
     .pipe(concat('firstpr.css'))
     .pipe(gulp.dest('.'));
 });
