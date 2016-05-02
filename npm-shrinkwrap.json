@@ -559,9 +559,9 @@
       "resolved": "https://registry.npmjs.org/gulp-sass/-/gulp-sass-2.3.1.tgz",
       "dependencies": {
         "object-assign": {
-          "version": "4.0.1",
+          "version": "4.1.0",
           "from": "object-assign@>=4.0.1 <5.0.0",
-          "resolved": "https://registry.npmjs.org/object-assign/-/object-assign-4.0.1.tgz"
+          "resolved": "https://registry.npmjs.org/object-assign/-/object-assign-4.1.0.tgz"
         }
       }
     },
@@ -953,9 +953,9 @@
       "resolved": "https://registry.npmjs.org/meow/-/meow-3.7.0.tgz",
       "dependencies": {
         "object-assign": {
-          "version": "4.0.1",
+          "version": "4.1.0",
           "from": "object-assign@>=4.0.1 <5.0.0",
-          "resolved": "https://registry.npmjs.org/object-assign/-/object-assign-4.0.1.tgz"
+          "resolved": "https://registry.npmjs.org/object-assign/-/object-assign-4.1.0.tgz"
         }
       }
     },
@@ -1347,9 +1347,9 @@
       "resolved": "https://registry.npmjs.org/sntp/-/sntp-1.0.9.tgz"
     },
     "source-map": {
-      "version": "0.5.5",
+      "version": "0.5.6",
       "from": "source-map@>=0.5.1 <0.6.0",
-      "resolved": "https://registry.npmjs.org/source-map/-/source-map-0.5.5.tgz"
+      "resolved": "https://registry.npmjs.org/source-map/-/source-map-0.5.6.tgz"
     },
     "sparkles": {
       "version": "1.0.0",
