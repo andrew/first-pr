@@ -1094,9 +1094,9 @@
       "resolved": "https://registry.npmjs.org/number-is-nan/-/number-is-nan-1.0.0.tgz"
     },
     "oauth-sign": {
-      "version": "0.8.1",
+      "version": "0.8.2",
       "from": "oauth-sign@>=0.8.1 <0.9.0",
-      "resolved": "https://registry.npmjs.org/oauth-sign/-/oauth-sign-0.8.1.tgz"
+      "resolved": "https://registry.npmjs.org/oauth-sign/-/oauth-sign-0.8.2.tgz"
     },
     "object-assign": {
       "version": "3.0.0",
@@ -1472,9 +1472,9 @@
       "resolved": "https://registry.npmjs.org/trim-newlines/-/trim-newlines-1.0.0.tgz"
     },
     "tunnel-agent": {
-      "version": "0.4.2",
+      "version": "0.4.3",
       "from": "tunnel-agent@>=0.4.1 <0.5.0",
-      "resolved": "https://registry.npmjs.org/tunnel-agent/-/tunnel-agent-0.4.2.tgz"
+      "resolved": "https://registry.npmjs.org/tunnel-agent/-/tunnel-agent-0.4.3.tgz"
     },
     "tweetnacl": {
       "version": "0.13.3",
@@ -1599,9 +1599,9 @@
       "resolved": "https://registry.npmjs.org/vinyl-sourcemaps-apply/-/vinyl-sourcemaps-apply-0.2.1.tgz"
     },
     "which": {
-      "version": "1.2.4",
+      "version": "1.2.7",
       "from": "which@>=1.2.4 <2.0.0",
-      "resolved": "https://registry.npmjs.org/which/-/which-1.2.4.tgz"
+      "resolved": "https://registry.npmjs.org/which/-/which-1.2.7.tgz"
     },
     "window-size": {
       "version": "0.1.4",
