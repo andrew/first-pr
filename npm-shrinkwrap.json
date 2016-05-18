@@ -204,9 +204,9 @@
       "resolved": "https://registry.npmjs.org/core-util-is/-/core-util-is-1.0.2.tgz"
     },
     "cross-spawn-async": {
-      "version": "2.2.3",
+      "version": "2.2.4",
       "from": "cross-spawn-async@>=2.1.9 <3.0.0",
-      "resolved": "https://registry.npmjs.org/cross-spawn-async/-/cross-spawn-async-2.2.3.tgz",
+      "resolved": "https://registry.npmjs.org/cross-spawn-async/-/cross-spawn-async-2.2.4.tgz",
       "dependencies": {
         "lru-cache": {
           "version": "4.0.1",
@@ -1613,9 +1613,9 @@
       "resolved": "https://registry.npmjs.org/vinyl-sourcemaps-apply/-/vinyl-sourcemaps-apply-0.2.1.tgz"
     },
     "which": {
-      "version": "1.2.4",
-      "from": "which@1.2.4",
-      "resolved": "https://registry.npmjs.org/which/-/which-1.2.4.tgz"
+      "version": "1.2.8",
+      "from": "which@>=1.2.8 <2.0.0",
+      "resolved": "https://registry.npmjs.org/which/-/which-1.2.8.tgz"
     },
     "window-size": {
       "version": "0.1.4",
