@@ -1001,9 +1001,9 @@
       "resolved": "https://registry.npmjs.org/mime-types/-/mime-types-2.1.11.tgz"
     },
     "minimatch": {
-      "version": "3.0.0",
+      "version": "3.0.2",
       "from": "minimatch@>=2.0.0 <3.0.0||>=3.0.0 <4.0.0",
-      "resolved": "https://registry.npmjs.org/minimatch/-/minimatch-3.0.0.tgz"
+      "resolved": "https://registry.npmjs.org/minimatch/-/minimatch-3.0.2.tgz"
     },
     "minimist": {
       "version": "1.2.0",
@@ -1077,7 +1077,7 @@
           "resolved": "https://registry.npmjs.org/glob/-/glob-7.0.4.tgz",
           "dependencies": {
             "minimatch": {
-              "version": "3.0.0",
+              "version": "3.0.2",
               "from": "minimatch@>=2.0.0 <3.0.0||>=3.0.0 <4.0.0"
             }
           }
