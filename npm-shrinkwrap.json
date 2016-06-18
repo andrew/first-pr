@@ -203,14 +203,14 @@
       "from": "core-util-is@>=1.0.0 <1.1.0",
       "resolved": "https://registry.npmjs.org/core-util-is/-/core-util-is-1.0.2.tgz"
     },
-    "cross-spawn-async": {
-      "version": "2.2.4",
-      "from": "cross-spawn-async@>=2.1.9 <3.0.0",
-      "resolved": "https://registry.npmjs.org/cross-spawn-async/-/cross-spawn-async-2.2.4.tgz",
+    "cross-spawn": {
+      "version": "3.0.1",
+      "from": "cross-spawn@>=3.0.0 <4.0.0",
+      "resolved": "https://registry.npmjs.org/cross-spawn/-/cross-spawn-3.0.1.tgz",
       "dependencies": {
         "lru-cache": {
           "version": "4.0.1",
-          "from": "lru-cache@>=4.0.0 <5.0.0",
+          "from": "lru-cache@>=4.0.1 <5.0.0",
           "resolved": "https://registry.npmjs.org/lru-cache/-/lru-cache-4.0.1.tgz"
         }
       }
@@ -1062,9 +1062,9 @@
       }
     },
     "node-sass": {
-      "version": "3.7.0",
+      "version": "3.8.0",
       "from": "node-sass@>=3.4.2 <4.0.0",
-      "resolved": "https://registry.npmjs.org/node-sass/-/node-sass-3.7.0.tgz",
+      "resolved": "https://registry.npmjs.org/node-sass/-/node-sass-3.8.0.tgz",
       "dependencies": {
         "gaze": {
           "version": "1.0.0",
@@ -1668,7 +1668,7 @@
     },
     "which": {
       "version": "1.2.10",
-      "from": "which@>=1.2.8 <2.0.0",
+      "from": "which@>=1.2.9 <2.0.0",
       "resolved": "https://registry.npmjs.org/which/-/which-1.2.10.tgz"
     },
     "window-size": {
