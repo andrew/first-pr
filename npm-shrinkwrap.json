@@ -1077,50 +1077,24 @@
       "resolved": "https://registry.npmjs.org/node-sass/-/node-sass-3.8.0.tgz",
       "dependencies": {
         "gaze": {
-          "version": "1.0.0",
+          "version": "1.1.0",
           "from": "gaze@>=1.0.0 <2.0.0",
-          "resolved": "https://registry.npmjs.org/gaze/-/gaze-1.0.0.tgz"
+          "resolved": "https://registry.npmjs.org/gaze/-/gaze-1.1.0.tgz"
         },
         "glob": {
           "version": "7.0.5",
           "from": "glob@>=7.0.3 <8.0.0",
-          "resolved": "https://registry.npmjs.org/glob/-/glob-7.0.5.tgz",
-          "dependencies": {
-            "minimatch": {
-              "version": "3.0.2",
-              "from": "minimatch@^3.0.2",
-              "resolved": "https://registry.npmjs.org/minimatch/-/minimatch-3.0.2.tgz"
-            }
-          }
+          "resolved": "https://registry.npmjs.org/glob/-/glob-7.0.5.tgz"
         },
         "globule": {
-          "version": "0.2.0",
-          "from": "globule@>=0.2.0 <0.3.0",
-          "resolved": "https://registry.npmjs.org/globule/-/globule-0.2.0.tgz",
-          "dependencies": {
-            "glob": {
-              "version": "3.2.11",
-              "from": "glob@>=3.2.7 <3.3.0",
-              "resolved": "https://registry.npmjs.org/glob/-/glob-3.2.11.tgz",
-              "dependencies": {
-                "minimatch": {
-                  "version": "0.3.0",
-                  "from": "minimatch@>=0.3.0 <0.4.0",
-                  "resolved": "https://registry.npmjs.org/minimatch/-/minimatch-0.3.0.tgz"
-                }
-              }
-            }
-          }
+          "version": "1.0.0",
+          "from": "globule@>=1.0.0 <2.0.0",
+          "resolved": "https://registry.npmjs.org/globule/-/globule-1.0.0.tgz"
         },
         "lodash": {
-          "version": "2.4.2",
-          "from": "lodash@>=2.4.1 <2.5.0",
-          "resolved": "https://registry.npmjs.org/lodash/-/lodash-2.4.2.tgz"
-        },
-        "minimatch": {
-          "version": "0.2.14",
-          "from": "minimatch@>=0.2.11 <0.3.0",
-          "resolved": "https://registry.npmjs.org/minimatch/-/minimatch-0.2.14.tgz"
+          "version": "4.9.0",
+          "from": "lodash@>=4.9.0 <4.10.0",
+          "resolved": "https://registry.npmjs.org/lodash/-/lodash-4.9.0.tgz"
         }
       }
     },
