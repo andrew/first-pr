@@ -618,7 +618,7 @@
     "has-color": {
       "version": "0.1.7",
       "from": "has-color@>=0.1.7 <0.2.0",
-      "resolved": "http://registry.npmjs.org/has-color/-/has-color-0.1.7.tgz"
+      "resolved": "https://registry.npmjs.org/has-color/-/has-color-0.1.7.tgz"
     },
     "has-gulplog": {
       "version": "0.1.0",
