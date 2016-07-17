@@ -1650,9 +1650,16 @@
       "resolved": "https://registry.npmjs.org/yargs/-/yargs-4.8.0.tgz"
     },
     "yargs-parser": {
-      "version": "2.4.0",
+      "version": "2.4.1",
       "from": "yargs-parser@>=2.4.0 <3.0.0",
-      "resolved": "https://registry.npmjs.org/yargs-parser/-/yargs-parser-2.4.0.tgz"
+      "resolved": "https://registry.npmjs.com/yargs-parser/-/yargs-parser-2.4.1.tgz",
+      "dependencies": {
+        "camelcase": {
+          "version": "3.0.0",
+          "from": "camelcase@>=3.0.0 <4.0.0",
+          "resolved": "https://registry.npmjs.org/camelcase/-/camelcase-3.0.0.tgz"
+        }
+      }
     }
   }
 }
