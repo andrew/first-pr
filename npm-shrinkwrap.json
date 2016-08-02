@@ -273,11 +273,6 @@
       "from": "dateformat@>=1.0.11 <2.0.0",
       "resolved": "https://registry.npmjs.org/dateformat/-/dateformat-1.0.12.tgz"
     },
-    "deap": {
-      "version": "1.0.0",
-      "from": "deap@>=1.0.0 <2.0.0",
-      "resolved": "https://registry.npmjs.org/deap/-/deap-1.0.0.tgz"
-    },
     "debug": {
       "version": "2.2.0",
       "from": "debug@>=2.2.0 <3.0.0",
@@ -676,9 +671,16 @@
       "resolved": "https://registry.npmjs.org/gulp-sass/-/gulp-sass-2.3.2.tgz"
     },
     "gulp-uglify": {
-      "version": "1.5.4",
-      "from": "gulp-uglify@>=1.5.1 <2.0.0",
-      "resolved": "https://registry.npmjs.org/gulp-uglify/-/gulp-uglify-1.5.4.tgz"
+      "version": "2.0.0",
+      "from": "gulp-uglify@>=2.0.0 <3.0.0",
+      "resolved": "https://registry.npmjs.org/gulp-uglify/-/gulp-uglify-2.0.0.tgz",
+      "dependencies": {
+        "lodash": {
+          "version": "4.14.1",
+          "from": "lodash@>=4.13.1 <5.0.0",
+          "resolved": "https://registry.npmjs.org/lodash/-/lodash-4.14.1.tgz"
+        }
+      }
     },
     "gulp-util": {
       "version": "3.0.7",
@@ -1128,6 +1130,16 @@
       "version": "2.7.3",
       "from": "lru-cache@>=2.0.0 <3.0.0",
       "resolved": "https://registry.npmjs.org/lru-cache/-/lru-cache-2.7.3.tgz"
+    },
+    "make-error": {
+      "version": "1.2.0",
+      "from": "make-error@>=1.2.0 <2.0.0",
+      "resolved": "https://registry.npmjs.org/make-error/-/make-error-1.2.0.tgz"
+    },
+    "make-error-cause": {
+      "version": "1.2.1",
+      "from": "make-error-cause@>=1.1.1 <2.0.0",
+      "resolved": "https://registry.npmjs.org/make-error-cause/-/make-error-cause-1.2.1.tgz"
     },
     "map-cache": {
       "version": "0.2.2",
@@ -1748,9 +1760,9 @@
       "resolved": "https://registry.npmjs.org/tweetnacl/-/tweetnacl-0.13.3.tgz"
     },
     "uglify-js": {
-      "version": "2.6.4",
-      "from": "uglify-js@2.6.4",
-      "resolved": "https://registry.npmjs.org/uglify-js/-/uglify-js-2.6.4.tgz",
+      "version": "2.7.0",
+      "from": "uglify-js@2.7.0",
+      "resolved": "https://registry.npmjs.org/uglify-js/-/uglify-js-2.7.0.tgz",
       "dependencies": {
         "async": {
           "version": "0.2.10",
