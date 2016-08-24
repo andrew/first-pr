@@ -1216,9 +1216,9 @@
       "resolved": "https://registry.npmjs.org/nan/-/nan-2.4.0.tgz"
     },
     "natives": {
-      "version": "1.0.1",
+      "version": "1.0.2",
       "from": "natives@>=1.0.1 <2.0.0",
-      "resolved": "https://registry.npmjs.org/natives/-/natives-1.0.1.tgz"
+      "resolved": "https://registry.npmjs.org/natives/-/natives-1.0.2.tgz"
     },
     "node-gyp": {
       "version": "3.4.0",
