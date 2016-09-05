@@ -1253,13 +1253,18 @@
           "version": "3.0.3",
           "from": "minimatch@>=3.0.2 <4.0.0",
           "resolved": "https://registry.npmjs.org/minimatch/-/minimatch-3.0.3.tgz"
+        },
+        "npmlog": {
+          "version": "3.1.2",
+          "from": "npmlog@>=0.0.0 <1.0.0||>=1.0.0 <2.0.0||>=2.0.0 <3.0.0||>=3.0.0 <4.0.0",
+          "resolved": "https://registry.npmjs.org/npmlog/-/npmlog-3.1.2.tgz"
         }
       }
     },
     "node-sass": {
-      "version": "3.8.0",
+      "version": "3.9.0",
       "from": "node-sass@>=3.4.2 <4.0.0",
-      "resolved": "https://registry.npmjs.org/node-sass/-/node-sass-3.8.0.tgz",
+      "resolved": "https://registry.npmjs.org/node-sass/-/node-sass-3.9.0.tgz",
       "dependencies": {
         "gaze": {
           "version": "1.1.1",
@@ -1309,9 +1314,9 @@
       "resolved": "https://registry.npmjs.org/normalize-path/-/normalize-path-2.0.1.tgz"
     },
     "npmlog": {
-      "version": "3.1.2",
-      "from": "npmlog@>=0.0.0 <1.0.0||>=1.0.0 <2.0.0||>=2.0.0 <3.0.0||>=3.0.0 <4.0.0",
-      "resolved": "https://registry.npmjs.org/npmlog/-/npmlog-3.1.2.tgz"
+      "version": "4.0.0",
+      "from": "npmlog@>=4.0.0 <5.0.0",
+      "resolved": "https://registry.npmjs.org/npmlog/-/npmlog-4.0.0.tgz"
     },
     "number-is-nan": {
       "version": "1.0.0",
@@ -1903,9 +1908,9 @@
       "resolved": "https://registry.npmjs.org/vinyl-sourcemaps-apply/-/vinyl-sourcemaps-apply-0.2.1.tgz"
     },
     "which": {
-      "version": "1.2.10",
+      "version": "1.2.11",
       "from": "which@>=1.2.10 <2.0.0",
-      "resolved": "https://registry.npmjs.org/which/-/which-1.2.10.tgz"
+      "resolved": "https://registry.npmjs.org/which/-/which-1.2.11.tgz"
     },
     "which-module": {
       "version": "1.0.0",
