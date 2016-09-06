@@ -1151,9 +1151,9 @@
       "resolved": "https://registry.npmjs.org/lru-cache/-/lru-cache-2.7.3.tgz"
     },
     "make-error": {
-      "version": "1.2.0",
+      "version": "1.2.1",
       "from": "make-error@>=1.2.0 <2.0.0",
-      "resolved": "https://registry.npmjs.org/make-error/-/make-error-1.2.0.tgz"
+      "resolved": "https://registry.npmjs.org/make-error/-/make-error-1.2.1.tgz"
     },
     "make-error-cause": {
       "version": "1.2.1",
@@ -1262,9 +1262,9 @@
       }
     },
     "node-sass": {
-      "version": "3.9.0",
+      "version": "3.9.3",
       "from": "node-sass@>=3.4.2 <4.0.0",
-      "resolved": "https://registry.npmjs.org/node-sass/-/node-sass-3.9.0.tgz",
+      "resolved": "https://registry.npmjs.org/node-sass/-/node-sass-3.9.3.tgz",
       "dependencies": {
         "gaze": {
           "version": "1.1.1",
