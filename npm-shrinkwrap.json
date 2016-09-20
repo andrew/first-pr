@@ -693,9 +693,9 @@
       "resolved": "https://registry.npmjs.org/gulp-uglify/-/gulp-uglify-2.0.0.tgz",
       "dependencies": {
         "lodash": {
-          "version": "4.15.0",
+          "version": "4.16.0",
           "from": "lodash@>=4.13.1 <5.0.0",
-          "resolved": "https://registry.npmjs.org/lodash/-/lodash-4.15.0.tgz"
+          "resolved": "https://registry.npmjs.org/lodash/-/lodash-4.16.0.tgz"
         }
       }
     },
@@ -867,9 +867,9 @@
       "resolved": "https://registry.npmjs.org/is-glob/-/is-glob-2.0.1.tgz"
     },
     "is-my-json-valid": {
-      "version": "2.13.1",
+      "version": "2.14.0",
       "from": "is-my-json-valid@>=2.12.4 <3.0.0",
-      "resolved": "https://registry.npmjs.org/is-my-json-valid/-/is-my-json-valid-2.13.1.tgz"
+      "resolved": "https://registry.npmjs.org/is-my-json-valid/-/is-my-json-valid-2.14.0.tgz"
     },
     "is-number": {
       "version": "2.1.0",
@@ -1186,14 +1186,14 @@
       "resolved": "https://registry.npmjs.org/micromatch/-/micromatch-2.3.11.tgz"
     },
     "mime-db": {
-      "version": "1.23.0",
-      "from": "mime-db@>=1.23.0 <1.24.0",
-      "resolved": "https://registry.npmjs.org/mime-db/-/mime-db-1.23.0.tgz"
+      "version": "1.24.0",
+      "from": "mime-db@>=1.24.0 <1.25.0",
+      "resolved": "https://registry.npmjs.org/mime-db/-/mime-db-1.24.0.tgz"
     },
     "mime-types": {
-      "version": "2.1.11",
+      "version": "2.1.12",
       "from": "mime-types@>=2.1.7 <2.2.0",
-      "resolved": "https://registry.npmjs.org/mime-types/-/mime-types-2.1.11.tgz"
+      "resolved": "https://registry.npmjs.org/mime-types/-/mime-types-2.1.12.tgz"
     },
     "minimatch": {
       "version": "2.0.10",
@@ -1584,9 +1584,9 @@
           "resolved": "https://registry.npmjs.org/glob/-/glob-7.0.6.tgz"
         },
         "lodash": {
-          "version": "4.15.0",
+          "version": "4.16.0",
           "from": "lodash@>=4.0.0 <5.0.0",
-          "resolved": "https://registry.npmjs.org/lodash/-/lodash-4.15.0.tgz"
+          "resolved": "https://registry.npmjs.org/lodash/-/lodash-4.16.0.tgz"
         },
         "minimatch": {
           "version": "3.0.3",
