@@ -1715,14 +1715,14 @@
       "resolved": "https://registry.npmjs.org/supports-color/-/supports-color-2.0.0.tgz"
     },
     "tape": {
-      "version": "4.6.0",
+      "version": "4.6.1",
       "from": "tape@>=4.5.1 <5.0.0",
-      "resolved": "https://registry.npmjs.org/tape/-/tape-4.6.0.tgz",
+      "resolved": "https://registry.npmjs.org/tape/-/tape-4.6.1.tgz",
       "dependencies": {
         "glob": {
-          "version": "7.0.6",
-          "from": "glob@>=7.0.4 <7.1.0",
-          "resolved": "https://registry.npmjs.org/glob/-/glob-7.0.6.tgz"
+          "version": "7.1.0",
+          "from": "glob@>=7.1.0 <7.2.0",
+          "resolved": "https://registry.npmjs.org/glob/-/glob-7.1.0.tgz"
         },
         "minimatch": {
           "version": "3.0.3",
