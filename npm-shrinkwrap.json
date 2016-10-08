@@ -679,9 +679,9 @@
       "resolved": "https://registry.npmjs.org/gulp-uglify/-/gulp-uglify-2.0.0.tgz",
       "dependencies": {
         "lodash": {
-          "version": "4.16.3",
+          "version": "4.16.4",
           "from": "lodash@>=4.13.1 <5.0.0",
-          "resolved": "https://registry.npmjs.org/lodash/-/lodash-4.16.3.tgz"
+          "resolved": "https://registry.npmjs.org/lodash/-/lodash-4.16.4.tgz"
         }
       }
     },
@@ -1229,9 +1229,9 @@
       "resolved": "https://registry.npmjs.org/node-gyp/-/node-gyp-3.4.0.tgz",
       "dependencies": {
         "glob": {
-          "version": "7.1.0",
+          "version": "7.1.1",
           "from": "glob@>=7.0.3 <8.0.0",
-          "resolved": "https://registry.npmjs.org/glob/-/glob-7.1.0.tgz"
+          "resolved": "https://registry.npmjs.org/glob/-/glob-7.1.1.tgz"
         },
         "minimatch": {
           "version": "3.0.3",
@@ -1256,9 +1256,9 @@
           "resolved": "https://registry.npmjs.org/gaze/-/gaze-1.1.2.tgz"
         },
         "glob": {
-          "version": "7.1.0",
+          "version": "7.1.1",
           "from": "glob@>=7.0.3 <8.0.0",
-          "resolved": "https://registry.npmjs.org/glob/-/glob-7.1.0.tgz"
+          "resolved": "https://registry.npmjs.org/glob/-/glob-7.1.1.tgz"
         },
         "globule": {
           "version": "1.0.0",
@@ -1555,9 +1555,9 @@
       "resolved": "https://registry.npmjs.org/rimraf/-/rimraf-2.5.4.tgz",
       "dependencies": {
         "glob": {
-          "version": "7.1.0",
+          "version": "7.1.1",
           "from": "glob@>=7.0.5 <8.0.0",
-          "resolved": "https://registry.npmjs.org/glob/-/glob-7.1.0.tgz"
+          "resolved": "https://registry.npmjs.org/glob/-/glob-7.1.1.tgz"
         },
         "minimatch": {
           "version": "3.0.3",
@@ -1572,14 +1572,14 @@
       "resolved": "https://registry.npmjs.org/sass-graph/-/sass-graph-2.1.2.tgz",
       "dependencies": {
         "glob": {
-          "version": "7.1.0",
+          "version": "7.1.1",
           "from": "glob@>=7.0.0 <8.0.0",
-          "resolved": "https://registry.npmjs.org/glob/-/glob-7.1.0.tgz"
+          "resolved": "https://registry.npmjs.org/glob/-/glob-7.1.1.tgz"
         },
         "lodash": {
-          "version": "4.16.3",
+          "version": "4.16.4",
           "from": "lodash@>=4.0.0 <5.0.0",
-          "resolved": "https://registry.npmjs.org/lodash/-/lodash-4.16.3.tgz"
+          "resolved": "https://registry.npmjs.org/lodash/-/lodash-4.16.4.tgz"
         },
         "minimatch": {
           "version": "3.0.3",
@@ -1706,9 +1706,9 @@
       "resolved": "https://registry.npmjs.org/tape/-/tape-4.6.2.tgz",
       "dependencies": {
         "glob": {
-          "version": "7.1.0",
+          "version": "7.1.1",
           "from": "glob@>=7.1.0 <7.2.0",
-          "resolved": "https://registry.npmjs.org/glob/-/glob-7.1.0.tgz"
+          "resolved": "https://registry.npmjs.org/glob/-/glob-7.1.1.tgz"
         },
         "minimatch": {
           "version": "3.0.3",
