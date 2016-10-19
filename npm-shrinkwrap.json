@@ -1133,9 +1133,9 @@
       "resolved": "https://registry.npmjs.org/make-error/-/make-error-1.2.1.tgz"
     },
     "make-error-cause": {
-      "version": "1.2.1",
+      "version": "1.2.2",
       "from": "make-error-cause@>=1.1.1 <2.0.0",
-      "resolved": "https://registry.npmjs.org/make-error-cause/-/make-error-cause-1.2.1.tgz"
+      "resolved": "https://registry.npmjs.org/make-error-cause/-/make-error-cause-1.2.2.tgz"
     },
     "map-cache": {
       "version": "0.2.2",
