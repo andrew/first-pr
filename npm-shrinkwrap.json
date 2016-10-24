@@ -1254,25 +1254,18 @@
           "resolved": "https://registry.npmjs.org/glob/-/glob-7.1.1.tgz"
         },
         "globule": {
-          "version": "1.0.0",
+          "version": "1.1.0",
           "from": "globule@>=1.0.0 <2.0.0",
-          "resolved": "https://registry.npmjs.org/globule/-/globule-1.0.0.tgz",
-          "dependencies": {
-            "glob": {
-              "version": "7.0.6",
-              "from": "glob@>=7.0.3 <7.1.0",
-              "resolved": "https://registry.npmjs.org/glob/-/glob-7.0.6.tgz"
-            }
-          }
+          "resolved": "https://registry.npmjs.org/globule/-/globule-1.1.0.tgz"
         },
         "lodash": {
-          "version": "4.9.0",
-          "from": "lodash@>=4.9.0 <4.10.0",
-          "resolved": "https://registry.npmjs.org/lodash/-/lodash-4.9.0.tgz"
+          "version": "4.16.4",
+          "from": "lodash@>=4.16.4 <4.17.0",
+          "resolved": "https://registry.npmjs.org/lodash/-/lodash-4.16.4.tgz"
         },
         "minimatch": {
           "version": "3.0.3",
-          "from": "minimatch@>=3.0.0 <3.1.0",
+          "from": "minimatch@>=3.0.2 <3.1.0",
           "resolved": "https://registry.npmjs.org/minimatch/-/minimatch-3.0.3.tgz"
         }
       }
@@ -1493,9 +1486,9 @@
       "resolved": "https://registry.npmjs.org/repeat-element/-/repeat-element-1.1.2.tgz"
     },
     "repeat-string": {
-      "version": "1.5.4",
+      "version": "1.6.1",
       "from": "repeat-string@>=1.5.2 <2.0.0",
-      "resolved": "https://registry.npmjs.org/repeat-string/-/repeat-string-1.5.4.tgz"
+      "resolved": "https://registry.npmjs.org/repeat-string/-/repeat-string-1.6.1.tgz"
     },
     "repeating": {
       "version": "2.0.1",
