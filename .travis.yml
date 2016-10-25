@@ -11,7 +11,7 @@ before_install:
 cache:
   directories:
   - $HOME/.yarn-cache
-
+script: yarn test
 branches:
   only:
   - gh-pages
