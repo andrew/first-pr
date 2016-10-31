@@ -23,6 +23,6 @@ npm run build # will concat/compress css and js
 During development just run `gulp` in a separate console for continuous compilation.
 (Gulp will watch for changes in the js/ and css/ directories and run the respective tasks.)
 
-## Copyright
+### Copyright ###
 
 Copyright (c) 2016 Andrew Nesbitt. See [LICENSE](LICENSE) for details.
