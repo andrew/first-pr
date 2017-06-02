@@ -27,7 +27,7 @@
     "gulp": "^3.8.9",
     "gulp-concat": "^2.4.1",
     "gulp-sass": "^3.0.0",
-    "gulp-uglify": "^2.0.0",
+    "gulp-uglify": "^3.0.0",
     "tape": "^4.6.1"
   }
 }
