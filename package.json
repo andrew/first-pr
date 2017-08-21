@@ -24,10 +24,18 @@
   },
   "homepage": "https://github.com/andrew/first-pr",
   "devDependencies": {
-    "gulp": "^3.8.9",
-    "gulp-concat": "^2.4.1",
-    "gulp-sass": "^3.0.0",
+    "gulp": "^3.9.1",
+    "gulp-concat": "^2.6.1",
+    "gulp-sass": "^3.1.0",
     "gulp-uglify": "^3.0.0",
-    "tape": "4.7.0"
+    "tape": "^4.8.0"
+  },
+  "dependencies": {
+    "all": "^0.0.0",
+    "findup-sync": "^2.0.0",
+    "global-prefix": "^1.0.2",
+    "load-json-file": "^3.0.0",
+    "remove-trailing-separator": "^1.1.0",
+    "tar": "^4.0.1"
   }
 }
