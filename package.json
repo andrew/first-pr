@@ -29,14 +29,5 @@
     "gulp-sass": "^3.1.0",
     "gulp-uglify": "^3.0.0",
     "tape": "^4.8.0"
-  },
-  "dependencies": {
-    "all": "^0.0.0",
-    "findup-sync": "^2.0.0",
-    "global-prefix": "^1.0.2",
-    "load-json-file": "^3.0.0",
-    "remove-trailing-separator": "^1.1.0",
-    "tar": "^4.0.1",
-    "uglify-js": "3.1.3"
   }
 }
