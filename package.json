@@ -24,10 +24,10 @@
   },
   "homepage": "https://github.com/andrew/first-pr",
   "devDependencies": {
-    "gulp": "^3.9.1",
+    "gulp": "gulpjs/gulp#v4.0.0",
     "gulp-concat": "^2.6.1",
     "gulp-sass": "^3.1.0",
     "gulp-uglify": "^3.0.0",
-    "tape": "^4.8.0"
+    "tape": "^4.9.0"
   }
 }

@@ -11,26 +11,32 @@ var paths = {
   }
 };
 
-gulp.task('js', function() {
-  gulp.src(paths.js)
+function generateJs() {
+  return gulp.src(paths.js)
     .pipe(uglify())
     .pipe(concat('firstpr.js'))
     .pipe(gulp.dest('.'));
-});
+}
 
-gulp.task('sass', function () {
-  gulp.src( paths.sass.src )
+function generateSass() {
+  return gulp.src( paths.sass.src )
     .pipe(sass({outputStyle: 'compressed'}))
     .pipe(gulp.dest( paths.sass.build ))
     .pipe(concat('firstpr.css'))
     .pipe(gulp.dest('.'));
-});
+}
 
-// Continuous build
-gulp.task('watch', function() {
-  gulp.watch( paths.js,       ['js']);
-  gulp.watch( paths.sass.src, ['sass']);
-});
+function build() {
+  return gulp.series(generateJs, generateSass)();
+}
 
-gulp.task('build', ['js', 'sass']);
-gulp.task('default', ['build', 'watch']);
+function watch() {
+  gulp.watch(paths.js, generateJs)
+  gulp.watch(paths.sass.src, generateSass)
+}
+
+gulp.task('js', generateJs);
+gulp.task('sass', generateSass);
+gulp.task('build', gulp.parallel('js', 'sass'));
+gulp.task('watch', watch);
+gulp.task('default', gulp.series('build', 'watch'));
