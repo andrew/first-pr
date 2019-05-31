@@ -1,6 +1,6 @@
 var gulp        = require('gulp');
 var concat      = require('gulp-concat');
-var sass        = require('gulp-sass');
+var sass        = require('gulp-dart-sass');
 var uglify      = require('gulp-uglify');
 
 var paths = {
