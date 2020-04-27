@@ -4,7 +4,7 @@
   "description": "What was the first pull request you sent on GitHub?",
   "main": "gulpfile.js",
   "engines": {
-    "node": "12.3.1"
+    "node": "13.12.0"
   },
   "scripts": {
     "build": "gulp build",
@@ -26,8 +26,8 @@
   "devDependencies": {
     "gulp": "^4.0.2",
     "gulp-concat": "^2.6.1",
-    "gulp-dart-sass": "^0.9.1",
+    "gulp-dart-sass": "^1.0.2",
     "gulp-uglify": "^3.0.2",
-    "tape": "^4.10.2"
+    "tape": "^5.0.0"
   }
 }
