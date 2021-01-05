@@ -15,8 +15,7 @@ data from [developer.github.com/v3/](https://developer.github.com/v3/)
 Install [Gulp](http://gulpjs.com) and compile the assets:
 
 ```shell
-npm install -g yarn # install yarn package manager
-yarn # to install dependencies
+npm install # to install dependencies
 npm run build # will concat/compress css and js
 ```
 
