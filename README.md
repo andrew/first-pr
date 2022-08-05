@@ -1,10 +1,5 @@
 # First Pull Request
 
-[![build status](https://secure.travis-ci.org/andrew/first-pr.svg)](http://travis-ci.org/andrew/first-pr)
-[![Dependency Status](https://david-dm.org/andrew/first-pr.svg?theme=shields.io)](https://david-dm.org/andrew/first-pr)
-[![devDependency Status](https://david-dm.org/andrew/first-pr/dev-status.svg?theme=shields.io)](https://david-dm.org/andrew/first-pr#info=devDependencies)
-[![Gitter](https://img.shields.io/gitter/room/andrew/first-pr.svg?maxAge=2592000)](https://gitter.im/andrew/first-pr)
-
 What was the first pull request you sent on GitHub? [firstpr.me](https://firstpr.me/)
 
 Hosted on [pages.github.com](https://pages.github.com),
@@ -24,4 +19,4 @@ During development just run `gulp` in a separate console for continuous compilat
 
 ### Copyright ###
 
-Copyright (c) 2018 Andrew Nesbitt. See [LICENSE](LICENSE) for details.
+Copyright (c) 2022 Andrew Nesbitt. See [LICENSE](LICENSE) for details.
