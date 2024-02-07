@@ -4,7 +4,7 @@
   "description": "What was the first pull request you sent on GitHub?",
   "main": "gulpfile.js",
   "engines": {
-    "node": "17.8.0"
+    "node": "20.9.0"
   },
   "scripts": {
     "build": "gulp build",
