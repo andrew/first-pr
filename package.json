@@ -28,7 +28,7 @@
     "gulp-concat": "^2.6.1",
     "gulp-dart-sass": "^1.1.0",
     "gulp-uglify": "^3.0.2",
-    "tape": "^5.7.5",
+    "tape": "^5.8.1",
     "glob-parent": ">=5.1.2"
   },
   "overrides": {
