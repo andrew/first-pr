@@ -1,5 +1,14 @@
 function getLogin(){
-  return window.location.hash.slice(1)
+  return normaliseLogin(window.location.hash.slice(1));
+}
+
+// normalize user input so we accept either a bare login or a
+// full github.com profile URL.  If the value looks like a URL we
+// strip everything except the username part.
+function normaliseLogin(input) {
+  input = (input || '').trim();
+  var m = input.match(/github\.com\/([^\/?#\s]+)/i);
+  return m ? m[1] : input;
 }
 
 var missingTemplate = $('#missing-template').html();
@@ -76,7 +85,8 @@ $(function() {
   $('#user-form').submit(function(){
     $('.spinner').removeClass('hide')
     window.location.hash = ''
-    window.location.hash = $('#login')[0].value.trim()
+    // normalise in case the user pasted a full profile URL
+    window.location.hash = normaliseLogin($('#login')[0].value)
     return false
   })
 
