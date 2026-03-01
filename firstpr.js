@@ -63,6 +63,7 @@ function renderFound(d) {
   '</div>' +
   '<div id="all-results">' +
     '<a href="https://github.com/search?q=author%3A' + d.user.login + '&type=pullrequests&s=created&o=asc" target="_blank">See every pull request</a> by <a href="' + d.user.html_url + '">' + d.user.login + '</a>' +
+    ' &bull; <button id="copy-link-btn" type="button">Copy profile link</button>' +
   '</div>';
 }
 
@@ -115,6 +116,12 @@ function loadData(login, cb){
 function renderData(pullRequestData){
   if(pullRequestData){
     main.innerHTML = renderFound(pullRequestData);
+    document.getElementById('copy-link-btn').addEventListener('click', function() {
+      navigator.clipboard.writeText(window.location.href);
+      this.textContent = 'Copied!';
+      var btn = this;
+      setTimeout(function(){ btn.textContent = 'Copy profile link'; }, 2000);
+    });
     document.querySelectorAll('.moment-date').forEach(function(dateElem){
       var time = new Date(dateElem.getAttribute('datetime'));
       var formatted = time.toLocaleString('en-US', {year: 'numeric', month: 'long', day: 'numeric', hour: 'numeric', minute: '2-digit'});

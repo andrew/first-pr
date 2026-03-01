@@ -340,6 +340,20 @@ footer a, #all-results a {
   color: #666;
 }
 
+#copy-link-btn {
+  background: none;
+  border: 1px solid #999;
+  border-radius: 3px;
+  color: #666;
+  cursor: pointer;
+  font: inherit;
+  padding: 1px 6px;
+}
+
+#copy-link-btn:hover {
+  color: #333;
+}
+
 footer span, #all-results span {
   white-space: nowrap;
 }
